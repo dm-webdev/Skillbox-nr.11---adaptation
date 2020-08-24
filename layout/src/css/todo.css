@@ -1,0 +1,126 @@
+.todo {
+  margin-bottom: 85px;
+}
+
+.todo__heading {
+  margin-bottom: 49px;
+}
+
+.step-band {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 0 45px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step-band__step:not(:last-child) {
+  margin-right: 90px;
+}
+
+.active {
+  color: #FF9900;
+}
+
+.step-band__step__link {
+  transition: color 0.2s;
+}
+
+.step-band__step__link:hover,
+.step-band__step__link:active,
+.step-band__step__link:focus {
+  color: #FF9900;
+  transition: color 0.2s;
+}
+
+.todo__article {
+  padding-right: 57%;
+  background-image: url('../img/rectangle.jpg');
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 49%;
+}
+
+.todo__article__heading {
+  margin-bottom: 5px;
+}
+
+.todo__article__desk {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.todo__article__link {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 15px 38px 15px 40px;
+  letter-spacing: 0.1px;
+}
+
+.black-btn {
+  padding: 13px 39px;
+  border: 1px solid #333333;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: inherit;
+  cursor: pointer;
+  transition: color 0.2s,
+    background 0.2s;
+}
+
+.black-btn:hover,
+.black-btn:active,
+.black-btn:focus {
+  outline: none;
+  background: #333333;
+  color: #FFFFFF;
+  transition: color 0.2s,
+    background 0.2s;
+}
+
+@media screen and (max-width: 1790px) {
+  .todo__article {
+    background-position-y: top;
+    background-size: 55% 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .todo {
+    margin-bottom: 58px;
+  }
+
+  .todo__heading {
+    text-indent: -5px;
+  }
+
+  .todo__article {
+    padding-right: 54.3%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 47.2% 98.8%;
+  }
+
+  .todo__article__desk {
+    margin-bottom: 28px;
+  }
+
+  .todo__article__link {
+    padding: 20px 37px 20px 38px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .todo__article {
+    padding-right: 0;
+    padding-top: 60vw;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 100% 55vw;
+  }
+}

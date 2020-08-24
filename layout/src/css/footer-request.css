@@ -1,0 +1,121 @@
+.request {
+  position: relative;
+  width: 32.25%;
+}
+
+.form__heading {
+  margin-top: 10px;
+  margin-bottom: 22px;
+  color: #CACACA;
+}
+
+.form_inpute {
+  display: block;
+  margin-bottom: 24px;
+  padding: 15px 0 15px 25px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #414141;
+}
+
+.form_inpute::placeholder {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #CACACA;
+}
+
+.form__message {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.form__button {
+  margin-right: 20px;
+  padding: 15px 50px 13px 54px;
+}
+
+.checkbox-container {
+  display: inline-block;
+}
+
+.form__checkbox {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form__checkbox::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid red;
+}
+
+.form__checkbox__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.form__checkbox__label::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #CACACA;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80% 80%;
+}
+
+.form__checkbox:hover+.form__checkbox__label::before,
+.form__checkbox:focus+.form__checkbox__label::before {
+  box-shadow: 0 0 10px #FF9900;
+}
+
+.form__checkbox:checked+.form__checkbox__label::before {
+  background-image: url('../img/ok.svg');
+}
+
+@media screen and (max-width: 1790px) {
+  .checkbox-container {
+    margin-top: 20px;
+  }
+
+  .request {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .request {
+    width: 58%;
+  }
+
+  .form__heading {
+    text-indent: -4px;
+  }
+
+  .form_inpute {
+    padding: 15px 0 14px 25px;
+  }
+
+  .form__message {
+    margin-bottom: 26px;
+  }
+
+  .form__button {
+    margin-right: 15px;
+    padding: 18px 40px 22px 38px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

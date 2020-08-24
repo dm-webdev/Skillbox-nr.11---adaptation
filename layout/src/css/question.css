@@ -1,0 +1,115 @@
+.question {
+  margin-bottom: 83px;
+}
+
+
+.question__list {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.question__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 32px;
+  border-top: 1px solid #CACACA;
+  border-bottom: 1px solid #CACACA;
+
+}
+
+.question__list__item__link {
+  padding-left: 5px;
+  line-height: 55px;
+  transition: color 0.2s;
+}
+
+.question__list__item__link:hover,
+.question__list__item__link:active,
+.question__list__item__link:focus {
+  color: #FF9900;
+  transition: color 0.2s;
+}
+
+.question__list__item__btn {
+  position: relative;
+  padding: 25px;
+  border: none;
+  border-radius: 25px;
+  background: #ECECEC;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.question__list__item__btn:hover,
+.question__list__item__btn:active,
+.question__list__item__btn:focus {
+  outline: none;
+  background: #D2D2D2;
+  transition: background 0.2s;
+}
+
+.question__list__item__btn::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  width: 30px;
+  border: 1px solid #666666;
+  transition: border 0.2s;
+}
+
+.question__list__item__btn::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  width: 30px;
+  border: 1px solid #666666;
+  transform: rotateZ(90deg);
+  transition: border 0.2s;
+}
+
+.question__list__item__btn:hover::before,
+.question__list__item__btn:active::before,
+.question__list__item__btn:focus::before,
+.question__list__item__btn:hover::after,
+.question__list__item__btn:active::after,
+.question__list__item__btn:focus::after {
+  border: 1px solid #000000;
+  transition: border 0.2s;
+}
+
+@media screen and (max-width: 1200px) {
+  .question__heading {
+    text-indent: -4px;
+  }
+
+  .question {
+    margin-bottom: 58px;
+  }
+
+  .question__list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .question__list__item {
+    padding-top: 25px;
+    padding-bottom: 32px;
+  }
+
+  .question__list__item:nth-child(1) {
+    padding-top: 38px;
+    padding-bottom: 30px;
+  }
+
+  .question__list__item__link {
+    padding-left: 0px;
+    padding-right: 100px;
+    font-size: 20px;
+    line-height: 31px;
+    transition: color 0.2s;
+  }
+}
