@@ -1,39 +1,39 @@
 @font-face {
-	font-weight: 400;
-	font-style: normal;
-	font-family: 'Montserrat';
-	font-display: swap;
-	src: local('Montserrat Regular'),
-		url('../fonts/Montserrat-Regular.woff2'),
-		url('../fonts/Montserrat-Regular.woff');
+  font-weight: 400; /* Устанавливает насыщенность шрифта. Значение указывается в виде чисел от 100 до 900 с шагом 100 или с помощью заданных ключевых слов. */
+  font-style: normal; /* Определяет начертание шрифта — обычное, курсивное или наклонное. */
+  font-family: 'Montserrat'; /* Устанавливает семейство шрифта. */
+  font-display: swap; /* определяет то, как шрифт будет отображаться в зависимости от того, загрузился ли он и готов ли к использованию. */
+  src: local('Montserrat Regular'), /* Задает ресурс, содержащий данные шрифта. Имя шрифта на компьютере пользователя */
+    url('../fonts/Montserrat-Regular.woff2'), /* адрес расположения файла шрифта формата woff2*/
+    url('../fonts/Montserrat-Regular.woff'); /* адрес расположения файла шрифта woff*/
 }
 
 @font-face {
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-	font-family: 'Montserrat';
-	src: local('Montserrat SemiBold'),
-		url('../fonts/Montserrat-SemiBold.woff2'),
-		url('../fonts/Montserrat-SemiBold.woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Montserrat';
+  src: local('Montserrat SemiBold'),
+    url('../fonts/Montserrat-SemiBold.woff2'),
+    url('../fonts/Montserrat-SemiBold.woff');
 }
 
 @font-face {
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-	font-family: 'Montserrat';
-	src: local('Montserrat Bold'),
-		url('../fonts/Montserrat-Bold.woff2'),
-		url('../fonts/Montserrat-Bold.woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Montserrat';
+  src: local('Montserrat Bold'),
+    url('../fonts/Montserrat-Bold.woff2'),
+    url('../fonts/Montserrat-Bold.woff');
 }
 
 @font-face {
-	font-weight: 800;
-	font-style: normal;
-	font-display: swap;
-	font-family: 'Montserrat';
-	src: local('Montserrat ExtraBold'),
-		url('../fonts/Montserrat-ExtraBold.woff2'),
-		url('../fonts/Montserrat-ExtraBold.woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'Montserrat';
+  src: local('Montserrat ExtraBold'),
+    url('../fonts/Montserrat-ExtraBold.woff2'),
+    url('../fonts/Montserrat-ExtraBold.woff');
 }

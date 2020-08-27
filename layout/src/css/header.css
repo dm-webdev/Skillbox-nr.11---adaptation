@@ -42,16 +42,19 @@
   padding-right: 2px;
 }
 
-.header-nav__item__link {
+.nav__link {
   display: block;
   padding: 10px 0;
   border-bottom: 2px solid #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
   transition: border-color 0.2s;
 }
 
-.header-nav__item__link:hover,
-.header-nav__item__link:active,
-.header-nav__item__link:focus {
+.nav__link:hover,
+.nav__link:active,
+.nav__link:focus {
   outline: none;
   border-bottom-color: #FF9900;
   transition: border-color 0.2s;
@@ -104,7 +107,7 @@
   cursor: pointer;
 }
 
-.header-burger__span {
+.burger__link {
   position: absolute;
   display: block;
   right: 0;
@@ -115,10 +118,10 @@
   transition: background 0.2s;
 }
 
-.header-burger__span::before {
+.burger__link::after, 
+.burger__link::before {
   content: '';
   position: absolute;
-  top: 20px;
   display: block;
   width: 30px;
   height: 3px;
@@ -128,38 +131,33 @@
     transform 0.2s;
 }
 
-.header-burger__span::after {
-  content: '';
-  position: absolute;
+.burger__link::after {
   top: 10px;
-  display: block;
-  width: 30px;
-  height: 3px;
-  background: #333333;
-  transform-origin: right;
-  transition: background 0.2s,
-    transform 0.2s;
 }
 
-.header-burger:hover .header-burger__span::before,
-.header-burger:active .header-burger__span::before,
-.header-burger:focus .header-burger__span::before {
+.burger__link::before {
+  top: 20px;
+}
+
+.header-burger:hover .burger__link::before,
+.header-burger:active .burger__link::before,
+.header-burger:focus .burger__link::before {
   background: #FF9900;
   transform: scaleX(0.55);
   transition: background 0.2s,
     transform 0.2s;
 }
 
-.header-burger:hover .header-burger__span,
-.header-burger:active .header-burger__span,
-.header-burger:focus .header-burger__span {
+.header-burger:hover .burger__link,
+.header-burger:active .burger__link,
+.header-burger:focus .burger__link {
   background: #FF9900;
   transition: background 0.2s;
 }
 
-.header-burger:hover .header-burger__span::after,
-.header-burger:active .header-burger__span::after,
-.header-burger:focus .header-burger__span::after {
+.header-burger:hover .burger__link::after,
+.header-burger:active .burger__link::after,
+.header-burger:focus .burger__link::after {
   background: #FF9900;
   transform: scaleX(0.8);
   transition: background 0.2s,

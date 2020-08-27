@@ -2,24 +2,17 @@
   margin-bottom: 123px;
 }
 
-.about__heading {
+.section__heading {
   margin-bottom: 23px;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 59px;
 }
 
 .about__desk {
   margin-top: 0;
   margin-bottom: 44px;
   padding-right: 30%;
-}
-
-.i {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 1rem;
-  font-weight: bold;
-  color: #FFFFFF;
-  background-color: #FF9900;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1790px) {

@@ -1,6 +1,15 @@
 .request {
-  position: relative;
+  display: flex;
+
+
+  order: 4;
+  flex-basis: 100%;
+  /* flex-shrink: 5; */
   width: 32.25%;
+}
+
+.request-form {
+  position: relative;
 }
 
 .form__heading {
@@ -21,7 +30,7 @@
 
 .form_inpute::placeholder {
   font-family: 'Montserrat';
-  font-weight: normal;
+  font-weight: normal;                  
   font-size: 16px;
   line-height: 32px;
   color: #CACACA;
@@ -34,26 +43,11 @@
 
 .form__button {
   margin-right: 20px;
-  padding: 15px 50px 13px 54px;
-}
-
-.checkbox-container {
-  display: inline-block;
-}
-
-.form__checkbox {
-  position: relative;
-  z-index: 1;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.form__checkbox::after {
-  content: '';
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border: 1px solid red;
+  /* padding: 15px 50px 13px 54px; */
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
 
 .form__checkbox__label {
@@ -61,13 +55,27 @@
   display: inline-flex;
   align-items: center;
   user-select: none;
+  cursor: pointer;
 }
 
-.form__checkbox__label::before {
-  content: '';
+
+.form__checkbox {
   position: absolute;
-  left: -20px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.form__checkbox__desk {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.form__checkbox__desk::before {
+  content: '';
   display: inline-block;
+  margin-right: 20px;
   width: 14px;
   height: 14px;
   border: 1px solid #CACACA;
@@ -76,12 +84,14 @@
   background-size: 80% 80%;
 }
 
-.form__checkbox:hover+.form__checkbox__label::before,
-.form__checkbox:focus+.form__checkbox__label::before {
+.form__checkbox:not(:disabled):not(:checked)+.form__checkbox__desk:hover::before,
+.form__checkbox:not(:disabled):active+.form__checkbox__desk::before,
+.form__checkbox:focus+.form__checkbox__desk::before,
+.form__checkbox:focus:not(:checked)+.form__checkbox__desk::before {
   box-shadow: 0 0 10px #FF9900;
 }
 
-.form__checkbox:checked+.form__checkbox__label::before {
+.form__checkbox:checked+.form__checkbox__desk::before {
   background-image: url('../img/ok.svg');
 }
 

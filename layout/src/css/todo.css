@@ -2,33 +2,26 @@
   margin-bottom: 85px;
 }
 
-.todo__heading {
-  margin-bottom: 49px;
-}
-
-.step-band {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0 0 45px 0;
-  padding: 0;
-  list-style: none;
-}
-
-.step-band__step:not(:last-child) {
-  margin-right: 90px;
-}
-
 .active {
   color: #FF9900;
 }
 
-.step-band__step__link {
+.btn__step {
+  margin-right: 70px;
+  padding-left: 0;
+  padding-right: 15px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  line-height: 22px;
+  background: inherit;
+  cursor: pointer;
   transition: color 0.2s;
 }
 
-.step-band__step__link:hover,
-.step-band__step__link:active,
-.step-band__step__link:focus {
+.btn__step:hover,
+.btn__step:active,
+.btn__step:focus {
   color: #FF9900;
   transition: color 0.2s;
 }
@@ -44,6 +37,8 @@
 
 .todo__article__heading {
   margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .todo__article__desk {
@@ -54,11 +49,13 @@
 .todo__article__link {
   display: inline-block;
   margin-right: 25px;
-  padding: 15px 38px 15px 40px;
+  padding: 13px 38px 13px 40px;
+  font-size: 16px;
+  line-height: 20px;
   letter-spacing: 0.1px;
 }
 
-.black-btn {
+.link-contract {
   padding: 13px 39px;
   border: 1px solid #333333;
   text-align: center;
@@ -69,9 +66,9 @@
     background 0.2s;
 }
 
-.black-btn:hover,
-.black-btn:active,
-.black-btn:focus {
+.link-contract:hover,
+.link-contract:active,
+.link-contract:focus {
   outline: none;
   background: #333333;
   color: #FFFFFF;
@@ -91,9 +88,9 @@
     margin-bottom: 58px;
   }
 
-  .todo__heading {
+  /* .todo__heading {
     text-indent: -5px;
-  }
+  } */
 
   .todo__article {
     padding-right: 54.3%;
