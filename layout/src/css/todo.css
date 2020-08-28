@@ -2,6 +2,11 @@
   margin-bottom: 85px;
 }
 
+.btn-group {
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
 .active {
   color: #FF9900;
 }
@@ -49,19 +54,19 @@
 .todo__article__link {
   display: inline-block;
   margin-right: 25px;
-  padding: 13px 38px 13px 40px;
+  padding: 22px 35px 17px 40px;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.1px;
 }
 
 .link-contract {
-  padding: 13px 39px;
+  display: inline-block;
+  padding: 16px 35px 12px 39px;
   border: 1px solid #333333;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.05px;
   background-color: inherit;
-  cursor: pointer;
   transition: color 0.2s,
     background 0.2s;
 }

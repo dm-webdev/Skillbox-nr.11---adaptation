@@ -3,14 +3,13 @@
 }
 
 .intro {
-  padding: 103px 45% 91px 78px;
+  padding: 103px 45% 92px 78px;
   margin-bottom: 97px;
   color: #FFFFFF;
   background-color: #333333;
   background-image: url('../img/photo-of-balconies.jpg');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .intro__header {
@@ -32,14 +31,15 @@
 }
 
 .btn-link {
-  padding: 26px 38px 26px 41px;
+  margin-left: 3px;
+  padding: 28px 38px 24px 39px;
   border: none;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 23px;
   line-height: 29px;
   color: #FFFFFF;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.1px;
   background-color: #FF9900;
   cursor: pointer;
 }

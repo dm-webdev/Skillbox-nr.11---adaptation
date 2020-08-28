@@ -1,11 +1,9 @@
 .request {
   display: flex;
-
-
   order: 4;
   flex-basis: 100%;
-  /* flex-shrink: 5; */
-  width: 32.25%;
+  margin-left: 5.5%;
+  
 }
 
 .request-form {
@@ -21,8 +19,8 @@
 .form_inpute {
   display: block;
   margin-bottom: 24px;
-  padding: 15px 0 15px 25px;
-  width: 100%;
+  padding: 23px 0 20px 25px;
+  width: 570px;
   outline: none;
   border: none;
   background: #414141;
@@ -37,13 +35,15 @@
 }
 
 .form__message {
-  line-height: 30px;
+  padding: 15px 0 16px 25px;
   margin-bottom: 30px;
+  line-height: 30px;
 }
 
 .form__button {
-  margin-right: 20px;
-  /* padding: 15px 50px 13px 54px; */
+  margin-left: 0;
+  margin-right: 24px;
+  padding: 15px 50px 13px 54px;
   font-weight: bold;
   font-size: 16px;
   line-height: 32px;
@@ -75,7 +75,8 @@
 .form__checkbox__desk::before {
   content: '';
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 5px;
+  margin-bottom: 2px;
   width: 14px;
   height: 14px;
   border: 1px solid #CACACA;

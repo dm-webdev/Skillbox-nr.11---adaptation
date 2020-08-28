@@ -11,32 +11,17 @@
   flex-flow: column wrap;
 }
 
-/* 
-.footer-copy {
-  order: 1;
-  margin-right: 13.8%;
-  width: 20%;
-} */
-
 .footer__logo {
-  display: flex;
   order: 1;
-  /* flex-shrink: 1; */
-  flex: 1 1 0;
-
-
-  margin-bottom: 4px;
-  width: 20%;
+  flex-basis: 72px;
+  margin-bottom: 8px;
+  width: 12.5%;
 }
 
 .copy__desk {
   display: flex;
   order: 2;
-  /* flex-shrink: 3; */
   flex: 1 1 0;
-
-
-
   margin-top: 0;
   margin-bottom: 42px;
   width: 20%;
@@ -44,9 +29,7 @@
 
 .social {
   order: 3;
-  /* flex-shrink: 1; */
   flex: 1 1 0;
-
   display: flex;
   flex-flow: row nowrap;
   margin: 0;

@@ -3,7 +3,7 @@
 }
 
 .question__list {
-  margin-top: 0;
+  margin-top: 40px;
   padding: 0;
   list-style: none;
 }
@@ -12,13 +12,15 @@
   padding-top: 25px;
   padding-bottom: 32px;
   border-top: 1px solid #CACACA;
-  border-bottom: 1px solid #CACACA;}
+  border-bottom: 1px solid #CACACA;
+}
 
 .question-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 0;
+  padding-right: 2px;
   width: 100%;
   border: none;
   outline: none;
@@ -29,10 +31,10 @@
 
 .question__desk {
   padding-left: 5px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   text-align: left;
-  line-height: 29px;
+  line-height: 53px;
 }
 
 .question__expand {
