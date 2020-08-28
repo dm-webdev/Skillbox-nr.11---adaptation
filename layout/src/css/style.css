@@ -47,69 +47,8 @@ a {
   max-width: 1770px; /*максимальная ширина контейнера, если width, то задавать в относительных единицах, иначе не будет адаптивной версти.*/
 }
 
-/* .text_desk {
-  font-weight: bold;
-  font-size: 23px;
-  line-height: 29px;
-  color: #FFFFFF;
-} */
-
-/* .text_heading {
-  font-size: 48px;
-  font-weight: normal;
-  line-height: 59px;
-  color: #333333;
-} */
-
-/* .text_heding_m { */
-  /* font-weight: bold; */
-  /* font-size: 24px; */
-  /* line-height: 29px; */
-  /* color: #333333; */
-/* } */
-
-/* .text_main {
-  font-size: 16px;
-  line-height: 32px;
-  color: #333333;
-} */
-/* 
-.text_main-white {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 32px;
-  color: #FFFFFF;
-} */
-/* 
-.text_step {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #333333;
-} */
-
-/* .text_footer {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px; */
-  /* color: #CACACA; */
-/* } */
-
 @media screen and (max-width: 1790px) {
   .container {
     padding: 0 50px;
   }
 }
-
-/* @media screen and (max-width: 1200px) { */
-/* 
-  .text_nav {
-    font-size: 16px;
-    line-height: 20px;
-  } */
-
-  /* .text_desk {
-    font-size: 20px;
-    line-height: 24px;
-  } */
-/* } */

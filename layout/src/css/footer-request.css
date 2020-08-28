@@ -2,8 +2,7 @@
   display: flex;
   order: 4;
   flex-basis: 100%;
-  margin-left: 5.5%;
-  
+  margin-left: 5.5%;  
 }
 
 .request-form {
@@ -43,6 +42,7 @@
 .form__button {
   margin-left: 0;
   margin-right: 24px;
+  margin-bottom: 20px;
   padding: 15px 50px 13px 54px;
   font-weight: bold;
   font-size: 16px;
@@ -58,13 +58,11 @@
   cursor: pointer;
 }
 
-
 .form__checkbox {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
-
 
 .form__checkbox__desk {
   display: inline-flex;
@@ -103,30 +101,30 @@
 
   .request {
     width: 40%;
+    margin-left: 0;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
   .request {
-    width: 58%;
+    order: 1;
+    width: 57.8%;
+  }
+
+  .form_inpute {
+    width: 100%;
   }
 
   .form__heading {
     text-indent: -4px;
   }
-
-  .form_inpute {
-    padding: 15px 0 14px 25px;
-  }
-
-  .form__message {
-    margin-bottom: 26px;
-  }
-
+  
   .form__button {
-    margin-right: 15px;
-    padding: 18px 40px 22px 38px;
-    font-size: 16px;
-    line-height: 20px;
+    margin-right: 19px;    
+    padding: 15px 41px 13px 38px;
   }
+
+  .form__checkbox__desk::before {
+    margin-bottom: 5px;
+  }  
 }

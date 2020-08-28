@@ -118,7 +118,7 @@
   transition: background 0.2s;
 }
 
-.burger__link::after, 
+.burger__link::after,
 .burger__link::before {
   content: '';
   position: absolute;
@@ -186,6 +186,10 @@
     max-width: 150px;
   }
 
+  .header-nav__list {
+    margin: 0 52px 0 0;
+  }
+
   .header-nav {
     margin-right: 13px;
   }
@@ -203,11 +207,16 @@
   }
 
   .header-nav__item:nth-child(1) {
-    margin-right: 54px;
+    margin-right: 58px;
   }
 
   .header-burger {
     display: block;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 

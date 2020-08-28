@@ -26,22 +26,15 @@
   transition: color 0.2s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
   .footer-nav__list {
-    margin-right: 66px;
+    order: 3;
+    margin-top: 1%;
+    margin-right: 8%;
   }
 
-  .footer-nav__list {
-    margin-top: 14px;
-  }
-
-  .footer-nav__item {
+  .footer-nav__item:not(:last-child) {
     margin-bottom: 28px;
-  }
-
-  .footer-nav__link {
-    font-size: 18px;
-    line-height: 22px;
   }
 }
 

@@ -93,12 +93,17 @@
     margin-bottom: 58px;
   }
 
-  /* .todo__heading {
+  .todo__heading {
     text-indent: -5px;
-  } */
+  }
+
+  .btn-group {
+    margin-top: 40px;
+  }
+
 
   .todo__article {
-    padding-right: 54.3%;
+    padding-right: 54%;
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: 47.2% 98.8%;
@@ -106,6 +111,7 @@
 
   .todo__article__desk {
     margin-bottom: 28px;
+
   }
 
   .todo__article__link {
@@ -116,8 +122,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 950px) {
   .todo__article {
     padding-right: 0;
     padding-top: 60vw;

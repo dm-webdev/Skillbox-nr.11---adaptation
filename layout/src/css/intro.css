@@ -53,7 +53,11 @@
 
 @media screen and (max-width: 1790px) {
   .intro {
-    padding: 103px 20% 91px 78px;
+    padding: 103px 25% 91px 78px;
+  }
+
+  .intro__header {
+    font-size: 65px;
   }
 }
 
@@ -78,8 +82,31 @@
   }
 
   .btn-link {
-    padding: 26px 38px 30px 41px;
+    margin-left: 0;
+    padding: 26px 38px 25px 41px;
     font-size: 24px;
-    letter-spacing: 0.4px;
+    letter-spacing: -0.15px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    padding: 10% 5% 10% 45px;
+  }
+
+  .intro__header {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .intro__desk {
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+
+  .btn-link {
+    padding: 15px 30px;
+    font-size: 20px;
   }
 }
