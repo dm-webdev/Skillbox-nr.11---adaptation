@@ -11,7 +11,7 @@
   color: #FF9900;
 }
 
-.btn__step {
+.btn-group__step {
   margin-right: 70px;
   padding-left: 0;
   padding-right: 15px;
@@ -24,9 +24,9 @@
   transition: color 0.2s;
 }
 
-.btn__step:hover,
-.btn__step:active,
-.btn__step:focus {
+.btn-group__step:hover,
+.btn-group__step:active,
+.btn-group__step:focus {
   color: #FF9900;
   transition: color 0.2s;
 }

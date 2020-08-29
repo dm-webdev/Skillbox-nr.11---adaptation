@@ -23,31 +23,26 @@
       <nav class="header-nav">
         <ul class="header-nav__list">
           <li class="header-nav__item">
-            <a class="nav__link" href="#">О нас</a>
+            <a class="header-nav__link" href="#">О нас</a>
           </li>
           <li class="header-nav__item">
-            <a class="nav__link" href="#">Проекты</a>
+            <a class="header-nav__link" href="#">Проекты</a>
           </li>
           <li class="header-nav__item">
-            <a class="nav__link" href="#">Этапы</a>
+            <a class="header-nav__link" href="#">Этапы</a>
           </li>
           <li class="header-nav__item">
-            <a class="nav__link" href="#">Отзывы</a>
+            <a class="header-nav__link" href="#">Отзывы</a>
           </li>
           <li class="header-nav__item">
-            <a class="nav__link" href="#">Контакты</a>
+            <a class="header-nav__link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
 
-      <button class="search-btn" type="button" aria-label="кнопка поиска">
-        <svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect class="search_rect" x="19.5138" y="18.5495" width="8" height="2" transform="rotate(45 19.5138 18.5495)" />
-          <circle class="search_circle" cx="11.5" cy="11.5" r="10.5" stroke-width="2" />
-        </svg>
-      </button>
+      <button class="search-btn" type="button" aria-label="кнопка поиска"></button>
 
-      <button class="header-burger" type="button" aria-label="развернуть меню">
+      <button class="burger" type="button" aria-label="развернуть меню">
         <span class="burger__link" title="Развернуть меню"></span>
       </button>
     </div>
@@ -64,7 +59,7 @@
       </section>
 
       <section class="about">
-        <h2 class="section__heading about__heading">О нас</h2>
+        <h2 class="section_heading about__heading">О нас</h2>
 
         <p class="about__desk"> Также как перспективное планирование создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса экспериментов, поражающих по&nbsp;своей масштабности и&nbsp;грандиозности. А&nbsp;также диаграммы связей могут быть описаны максимально подробно. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что убеждённость некоторых оппонентов требует от&nbsp;нас анализа как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в&nbsp;отношении поставленных задач. Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
 
@@ -97,16 +92,16 @@
       </section>
 
       <section class="todo">
-        <h2 class="section__heading todo__heading">Как мы работаем</h2>
+        <h2 class="section_heading todo__heading">Как мы работаем</h2>
 
         <div class="btn-group">
-          <button class="btn__step active" type="button">1 шаг</button>
+          <button class="btn-group__step active" type="button">1 шаг</button>
 
-          <button class="btn__step" type="button">2 шаг</button>
+          <button class="btn-group__step" type="button">2 шаг</button>
 
-          <button class="btn__step" type="button">3 шаг</button>
+          <button class="btn-group__step" type="button">3 шаг</button>
 
-          <button class="btn__step" type="button">4 шаг</button>
+          <button class="btn-group__step" type="button">4 шаг</button>
         </div>
 
         <article class="todo__article">
@@ -121,7 +116,7 @@
       </section>
 
       <section class="question">
-        <h2 class="section__heading question__heading">Часто задаваемые вопросы</h2>
+        <h2 class="section_heading question__heading">Часто задаваемые вопросы</h2>
 
         <ul class="question__list">
           <li class="question__item">
@@ -168,7 +163,7 @@
     <div class="container footer-container">
       <img class="footer__logo" src="src/img/logo-white.png" alt="Евклид - проектные системы" />
 
-      <p class="copy__desk">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультаци с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.</p>
+      <p class="copy">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультаци с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов.</p>
 
       <ul class="social">
         <li class="social__item">
@@ -184,25 +179,25 @@
 
       <section class="request">
         <form class="request-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-          <h2 class="section__heading form__heading">Оставить заявку</h2>
+          <h2 class="section_heading request-form__heading">Оставить заявку</h2>
   
-          <input class="form__full-name form_inpute" type="text" name="fullName" required placeholder="Фамилия, имя и отчество*"/>
+          <input class="form_input" type="text" name="fullName" required placeholder="Фамилия, имя и отчество*"/>
   
-          <input class="form__email form_inpute" type="email" name="email" required placeholder="E-mail*"/>
+          <input class="form_input" type="email" name="email" required placeholder="E-mail*"/>
   
-          <textarea class="form__message form_inpute" name="message" rows="4" placeholder="Сообщение"></textarea>
+          <textarea class="request-form__message form_input" name="message" rows="4" placeholder="Сообщение"></textarea>
   
-          <button class="form__button btn-link" type="submit">Отправить данные</button>
+          <button class="request-form__button btn-link" type="submit">Отправить данные</button>
   
-          <label class="form__checkbox__label">
-            <input class="form__checkbox" type="checkbox" name="consent" required/>
+          <label class="confirm">
+            <input class="confirm__check" type="checkbox" name="confirm" required/>
             
-            <span class="form__checkbox__desk">Согласен на обработу данных</span>
+            <span class="confirm__desk">Согласен на обработу данных</span>
           </label>
         </form>
       </section>
 
-      <ul class="footer-nav__list">
+      <ul class="footer-nav">
         <li class="footer-nav__item">
           <a class="footer-nav__link" href="#">О нас</a>
         </li>
