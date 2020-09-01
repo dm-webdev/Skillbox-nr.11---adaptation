@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box; /* Задание размеров блоков: свойства width и height включают в себя значения padding и border, но не margin. */
+  scroll-behavior: smooth;
 }
 
 *,

@@ -43,7 +43,6 @@
   border: none;
   border-radius: 25px;
   background: #ECECEC;
-  cursor: pointer;
   transition: background 0.2s;
 }
 
@@ -52,7 +51,8 @@
   position: absolute;
   left: 10px;
   width: 30px;
-  border: 1px solid #666666;
+  height: 1px;
+  background-color: #666666;
   transition: border 0.2s;
 }
 
@@ -61,18 +61,9 @@
   position: absolute;
   left: 10px;
   width: 30px;
-  border: 1px solid #666666;
+  height: 1px;
+  background-color: #666666;
   transform: rotateZ(90deg);
-  transition: border 0.2s;
-}
-
-.question__expand:hover::before,
-.question__expand:active::before,
-.question__expand:focus::before,
-.question__expand:hover::after,
-.question__expand:active::after,
-.question__expand:focus::after {
-  border: 1px solid #000000;
   transition: border 0.2s;
 }
 
@@ -89,7 +80,7 @@
 .question-btn:hover .question__expand::after,
 .question-btn:active .question__expand::after,
 .question-btn:focus .question__expand::after {
-  border: 1px solid #000000;
+  background-color: #000000;
   transition: border 0.2s;
 }
 
