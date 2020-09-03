@@ -26,7 +26,7 @@
   margin: 0;
   width: 67%;
   line-height: 31px;
-  letter-spacing: 0.05px;
+  letter-spacing: calc(0.05rem/16);
   color: #FFFFFF;
 }
 

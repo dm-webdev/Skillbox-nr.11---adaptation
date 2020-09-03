@@ -1,7 +1,7 @@
 .header-bar {
   display: flex;
   flex-flow: row wrap;
-  padding: 14.5px 0;
+  padding: 15px 0;
 }
 
 .header-logo {

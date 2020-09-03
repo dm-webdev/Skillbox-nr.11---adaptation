@@ -18,7 +18,7 @@
   font-weight: 800;
   font-size: 70px;
   line-height: 86px;
-  letter-spacing: 0.3px;
+  letter-spacing: calc(0.3rem/16);
 }
 
 .intro__desk {
@@ -27,7 +27,7 @@
   font-weight: bold;
   font-size: 23px;
   line-height: 29px;
-  letter-spacing: 0.23px;
+  letter-spacing: calc(0.23rem/16);
 }
 
 .btn-link {
@@ -39,7 +39,7 @@
   font-size: 23px;
   line-height: 29px;
   color: #FFFFFF;
-  letter-spacing: 0.1px;
+  letter-spacing: calc(0.1rem/16);
   background-color: #FF9900;
   cursor: pointer;
 }
@@ -71,7 +71,7 @@
     margin-bottom: 10px;
     font-size: 60px;
     line-height: 73px;
-    letter-spacing: 0.1px;
+    letter-spacing: calc(0.1rem/16);
   }
 
   .intro__desk {
@@ -85,7 +85,7 @@
     margin-left: 0;
     padding: 26px 38px 25px 41px;
     font-size: 24px;
-    letter-spacing: -0.15px;
+    letter-spacing: calc(-0.15rem/16);
   }
 }
 
