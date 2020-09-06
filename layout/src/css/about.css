@@ -36,3 +36,24 @@
     padding-right: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .about {
+    margin-bottom: 32px;
+  }
+
+  .section_heading {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 22px;
+  }
+
+  .about__heading {
+    margin-bottom: 3px;
+    text-indent: 0px;
+  }
+
+  .about__desk {
+    margin-bottom: 11px;
+  }
+}

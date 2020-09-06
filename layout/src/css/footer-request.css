@@ -2,7 +2,7 @@
   display: flex;
   order: 4;
   flex-basis: 100%;
-  margin-left: 5.5%;  
+  margin-left: 5.5%;
 }
 
 .request-form {
@@ -40,7 +40,7 @@
   margin-right: 24px;
   margin-bottom: 20px;
   padding: 15px 50px 13px 54px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 32px;
   color: #FFFFFF;
@@ -110,13 +110,61 @@
   .request-form__heading {
     text-indent: -4px;
   }
-  
+
   .request-form__button {
-    margin-right: 19px;    
+    margin-right: 19px;
     padding: 15px 41px 13px 38px;
   }
 
   .confirm__desk::before {
     margin-bottom: 5px;
-  }  
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .request {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .request {
+    margin-bottom: 23px;
+  }
+
+  .request-form {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #595959;
+  }
+
+  .request-form__heading {
+    text-indent: 0;
+  }
+
+  .form_input {
+    padding: 15px 0 17px 20px;
+    width: 100%;
+  }
+
+  .request-form__message {
+    margin-bottom: 25px;
+  }
+
+  .request-form__button {
+    margin-left: 19%;
+    margin-bottom: 15px;
+    padding: 12px 30px 13px 29px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .confirm {
+    margin-left: 10px;
+  }
+
+  .confirm__desk {
+    font-size: 16px;
+    line-height: 28px;
+  }
 }

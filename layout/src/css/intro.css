@@ -110,3 +110,53 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .intro {
+    padding: 5%;
+  }
+
+  .intro__header {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .intro__desk {
+    font-size: 18px;
+  }
+
+  .btn-link {
+    padding: 18px 30px;
+    font-size: 16px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    margin-bottom: 38px;
+    padding: 11% 5% 14% 5%;
+    text-align: center;
+    background-image: url('../img/photo-of-balconies-min.jpg');
+  }
+
+  .intro__header {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .intro__desk {
+    margin-bottom: 35px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: calc(0.1rem/16);
+  }
+
+  .btn-link {
+    padding: 11px 30px 14px 30px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
