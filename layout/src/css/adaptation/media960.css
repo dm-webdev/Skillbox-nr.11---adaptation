@@ -1,0 +1,53 @@
+@media screen and (max-width: 960px) {
+  .section_heading {
+    font-size: 40px;
+  }
+
+
+  .intro {
+    padding: 10% 5% 10% 45px;
+  }
+
+  .intro__header {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .intro__desk {
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+
+  .btn-link {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+
+  .todo {
+    margin-bottom: 39px;
+  }
+
+  .todo__article {
+    padding-right: 0;
+    padding-top: 60vw;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 100% 55vw;
+  }
+
+  .btn-group__step{
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+    padding: 0;
+  }
+}

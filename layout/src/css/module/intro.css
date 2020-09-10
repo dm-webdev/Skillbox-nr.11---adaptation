@@ -1,0 +1,53 @@
+.main { 
+  margin-bottom: 85px;
+  background: linear-gradient(to bottom, #E5E5E5 0%, #FFFFFF 100%);
+}
+
+.intro {
+  padding: 103px 45% 92px 78px;
+  margin-bottom: 97px;
+  color: #FFFFFF;
+  background-color: #333333;
+  background-image: url('../../img/photo-of-balconies.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__header {
+  margin-top: 0;
+  margin-bottom: 19px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 86px;
+  letter-spacing: calc(0.3rem/16);
+}
+
+.intro__desk {
+  margin-top: 0;
+  margin-bottom: 96px;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 29px;
+  letter-spacing: calc(0.23rem/16);
+}
+
+.btn-link {
+  margin-left: 3px;
+  padding: 28px 38px 24px 39px;
+  border: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  color: #FFFFFF;
+  letter-spacing: calc(0.1rem/16);
+  background-color: #FF9900;
+  cursor: pointer;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+  outline: none;
+  background: rgba(255, 153, 0, 0.6);
+}

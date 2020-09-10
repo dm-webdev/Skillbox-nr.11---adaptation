@@ -1,0 +1,297 @@
+@media screen and (max-width: 400px) {
+  .header-bar {
+    padding: 7px 15px;
+  }
+
+  .header-logo {
+    width: 97px;
+    height: 31px;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  .burger__link {
+    top: 18%;
+    width: 25px;
+  }
+
+  .burger__link::after,
+  .burger__link::before {
+    width: 25px;
+  }
+
+  .burger__link::after {
+    top: 8px;
+  }
+
+  .burger__link::before {
+    top: 16px;
+  }
+
+  .main {
+    margin-bottom: 40px;
+  }
+
+  .intro {
+    margin-bottom: 38px;
+    padding: 11% 5% 14% 5%;
+    text-align: center;
+    background-image: url('../../img/photo-of-balconies-min.jpg');
+  }
+
+  .intro__header {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .intro__desk {
+    margin-bottom: 35px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: calc(0.1rem/16);
+  }
+
+  .btn-link {
+    padding: 11px 30px 14px 30px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .about {
+    margin-bottom: 32px;
+  }
+
+  .section_heading {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 22px;
+  }
+
+  .about__heading {
+    margin-bottom: 3px;
+    text-indent: 0px;
+  }
+
+  .about__desk {
+    margin-bottom: 11px;
+  }
+
+  .preview {
+    margin-bottom: 36px;
+    padding-top: 72%;
+    background-size: 100% 50%;
+  }
+
+  .preview__desk {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .preview__btn {
+    padding: 9px 42px 12px 42px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .summary__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .summary__item:nth-child(1) {
+    padding: 50px 0 0 0;
+  }
+
+  .summary__item:nth-child(2) {
+    padding: 55px 0 0 0;
+  }
+
+  .summary__item::before {
+    top: 4.5%;
+    left: 0;
+    width: 43px;
+    height: 43px;
+  }
+
+  .summary__item:nth-child(1)::after {
+    width: 57px;
+    height: 57px;
+    top: 0%;
+    left: 4.5%;
+  }
+
+  .summary__item:nth-child(2)::after {
+    width: 49px;
+    height: 49px;
+    top: 0%;
+    left: 7%;
+  }
+
+  .summary__item__header {
+    margin-bottom: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .todo__heading {
+    text-indent: 0px;
+    margin-bottom: 35px;
+  }
+
+  .btn-group {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .btn-group__step {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .todo__article {
+    background-image: url('../../img/rectangle-min.jpg');
+    padding-top: 47.8vw;
+    background-size: 100% 50vw;
+  }
+
+  .todo__article__heading {
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: calc(-0.2rem/16);
+  }
+
+  .todo__article__desk {
+    margin-bottom: 21px;
+  }
+
+  .todo__article__link {
+    margin-right: 7px;
+    padding: 11px 42px 14px 44px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .link-contract {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .question {
+    margin-bottom: 39px;
+  }
+
+  .question__heading {
+    margin-top: 0;
+    margin-bottom: 14px;
+    ;
+    text-indent: 0;
+  }
+
+  .question__item {
+    padding-top: 18px;
+    padding-bottom: 23px;
+  }
+
+  .question__item:nth-child(1) {
+    padding-top: 18px;
+    padding-bottom: 23px;
+  }
+
+  .question_desk {
+    padding-bottom: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: calc(0.15rem/16);
+  }
+
+  .question__expand {
+    margin-top: 5px;
+    margin-left: 32px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .question__expand::before {
+    left: 7px;
+    width: 18px;
+  }
+
+  .question__expand::after {
+    left: 7px;
+    width: 18px;
+  }
+
+  .footer-container {
+    padding-top: 28px;
+    padding-bottom: 5px;
+  }
+
+
+  .footer__logo {
+    margin-bottom: 0;
+    width: 131px;
+    flex-basis: 42px;
+  }
+
+  .social {
+    margin-top: 16px;
+  }
+
+  .social__item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .social__link {
+    padding: 17px;
+  }
+
+  .request {
+    margin-bottom: 23px;
+  }
+
+  .request-form {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #595959;
+  }
+
+  .request-form__heading {
+    text-indent: 0;
+  }
+
+  .form_input {
+    margin-bottom: 25px;
+    padding: 20px 0 20px 20px;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .request-form__message {
+    margin-bottom: 25px;
+    padding-bottom: 50px;
+  }
+
+  .request-form__button {
+    margin-left: 19%;
+    margin-bottom: 15px;
+    padding: 12px 30px 13px 29px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .confirm {
+    margin-left: 10px;
+  }
+
+  .confirm__desk {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

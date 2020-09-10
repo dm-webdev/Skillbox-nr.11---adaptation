@@ -13,7 +13,7 @@
   flex-flow: row wrap;
   align-items: center;
   margin-left: auto;
-  margin-right: 8px;
+  margin-right: 58px;
   padding-top: 6px;
 }
 
@@ -22,12 +22,12 @@
   flex-flow: row wrap;
   align-items: center;
   padding: 0;
-  margin: 0 26px;
+  margin: 0 0;
   list-style: none;
 }
 
 .header-nav__item:not(:last-child) {
-  margin: 0 60px 0 0;
+  margin: 0 74px 0 0;
 }
 
 .header-nav__item:nth-child(3) {
@@ -60,7 +60,7 @@
   padding: 9px 26px 0;
   border: none;
   background-color: inherit;
-  background-image: url('../img/search.svg');
+  background-image: url('../../img/search.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 26px 26px;
@@ -147,101 +147,4 @@
 .burger:active,
 .burger:focus {
   outline: none;
-}
-
-@media screen and (max-width: 1790px) {
-  .header-logo {
-    margin-left: 0;
-  }
-
-  .header-bar {
-    padding: 26px 50px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-
-  .header-logo {
-    max-width: 150px;
-  }
-
-  .header-nav__list {
-    margin: 0 52px 0 0;
-  }
-
-  .header-nav {
-    margin-right: 13px;
-  }
-
-  .header-nav__item:not(:last-child) {
-    margin: 0 59px 0 0;
-  }
-
-  .header-nav__item:nth-child(3) {
-    margin-right: 35px;
-  }
-
-  .header-nav__item:nth-child(2) {
-    margin-right: 36px;
-  }
-
-  .header-nav__item:nth-child(1) {
-    margin-right: 58px;
-  }
-
-  .burger {
-    display: block;
-  }
-
-  .header-nav__link {
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-
-  .header-nav__list {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .header-bar {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .header-bar {
-    padding: 7px 15px;
-  }
-
-  .header-logo {
-    width: 97px;
-    height: 31px;
-  }
-
-  .search-btn {
-    display: none;
-  }
-
-  .burger__link {
-    top: 18%;
-    width: 25px;
-  }
-  
-  .burger__link::after,
-  .burger__link::before {
-    width: 25px;
-  }
-  
-  .burger__link::after {
-    top: 8px;
-  }
-  
-  .burger__link::before {
-    top: 16px;
-  }
 }

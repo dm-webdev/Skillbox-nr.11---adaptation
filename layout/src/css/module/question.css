@@ -1,7 +1,3 @@
-.question {
-  margin-bottom: 83px;
-}
-
 .question__list {
   margin-top: 40px;
   padding: 0;
@@ -29,8 +25,7 @@
   transition: color 0.2s;
 }
 
-.question__desk {
-  padding-left: 5px;
+.question_desk {
   font-weight: 700;
   font-size: 24px;
   text-align: left;
@@ -38,6 +33,7 @@
 }
 
 .question__expand {
+  margin-left: 20px;
   position: relative;
   padding: 25px;
   border: none;
@@ -90,100 +86,4 @@
   outline: none;
   background: #D2D2D2;
   transition: background 0.2s;
-}
-
-@media screen and (max-width: 1200px) {
-  .question__heading {
-    text-indent: -4px;
-  }
-
-  .question {
-    margin-bottom: 58px;
-  }
-
-  .question__list {
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .question__item {
-    padding-top: 25px;
-    padding-bottom: 32px;
-  }
-
-  .question__item:nth-child(1) {
-    padding-top: 40px;
-    padding-bottom: 32px;
-  }
-
-  .question__heading {
-    margin-bottom: 36px;
-
-  }
-
-  .question__desk {
-    padding-left: 0;
-    padding-right: 100px;
-    font-size: 20px;
-    text-align: left;
-    line-height: calc(28.5rem/16);
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .question__desk {
-    font-size: 16px;
-  }
-
-  .question__desk {
-    padding-right: 50px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .question {
-    margin-bottom: 39px;
-  }
-
-  .question__heading {
-    margin-top: 0;
-    margin-bottom: 14px;;
-    text-indent: 0;
-  }
-
-  .question__item {
-    padding-top: 18px;
-    padding-bottom: 22px;
-  }
-
-  .question__item:nth-child(1) {
-    padding-top: 18px;
-    padding-bottom: 23px;
-  }
-
-  .question__desk {
-    padding-right: 25px;
-    padding-bottom: 0px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;  
-    letter-spacing: calc(0.15rem/16);
-  }
-
-  .question__expand {
-    margin-top: 5px;
-    padding: 15px;
-    border-radius: 15px;
-  }
-  
-  .question__expand::before {
-    left: 7px;
-    width: 18px;
-  }
-  
-  .question__expand::after {
-    left: 7px;
-    width: 18px;
-  }
 }

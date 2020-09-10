@@ -18,11 +18,12 @@
 .form_input {
   display: block;
   margin-bottom: 24px;
-  padding: 23px 0 20px 25px;
+  padding: 22px 0 20px 25px;
   width: 570px;
   outline: none;
   border: none;
   background: #414141;
+  line-height: 19px;
 }
 
 .form_input::placeholder {
@@ -87,84 +88,5 @@
 }
 
 .confirm__check:checked+.confirm__desk::before {
-  background-image: url('../img/ok.svg');
-}
-
-@media screen and (max-width: 1790px) {
-  .request {
-    width: 40%;
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  .request {
-    order: 1;
-    width: 57.8%;
-  }
-
-  .form_input {
-    width: 100%;
-  }
-
-  .request-form__heading {
-    text-indent: -4px;
-  }
-
-  .request-form__button {
-    margin-right: 19px;
-    padding: 15px 41px 13px 38px;
-  }
-
-  .confirm__desk::before {
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .request {
-    margin-bottom: 30px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .request {
-    margin-bottom: 23px;
-  }
-
-  .request-form {
-    padding-bottom: 24px;
-    border-bottom: 1px solid #595959;
-  }
-
-  .request-form__heading {
-    text-indent: 0;
-  }
-
-  .form_input {
-    padding: 15px 0 17px 20px;
-    width: 100%;
-  }
-
-  .request-form__message {
-    margin-bottom: 25px;
-  }
-
-  .request-form__button {
-    margin-left: 19%;
-    margin-bottom: 15px;
-    padding: 12px 30px 13px 29px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .confirm {
-    margin-left: 10px;
-  }
-
-  .confirm__desk {
-    font-size: 16px;
-    line-height: 28px;
-  }
+  background-image: url('../../img/ok.svg');
 }

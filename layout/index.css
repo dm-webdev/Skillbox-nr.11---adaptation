@@ -4,21 +4,34 @@
 
 @import 'src/css/style.css';
 
-@import 'src/css/header.css';
+@import 'src/css/module/header.css';
 
-@import 'src/css/intro.css';
+@import 'src/css/module/intro.css';
 
-@import 'src/css/about.css';
+@import 'src/css/module/about.css';
 
-@import 'src/css/summary.css';
+@import 'src/css/module/summary.css';
 
-@import 'src/css/todo.css';
+@import 'src/css/module/todo.css';
 
-@import 'src/css/question.css';
+@import 'src/css/module/question.css';
 
-@import 'src/css/footer-copy.css';
+@import 'src/css/module/footer-copy.css';
 
-@import 'src/css/footer-request.css';
+@import 'src/css/module/footer-request.css';
 
-@import 'src/css/footer-nav.css';
+@import 'src/css/module/footer-nav.css';
 
+@import 'src/css/adaptation/media1790.css';
+
+@import 'src/css/adaptation/media1500.css';
+
+@import 'src/css/adaptation/media1200.css';
+
+@import 'src/css/adaptation/media1023.css';
+
+@import 'src/css/adaptation/media960.css';
+
+@import 'src/css/adaptation/media700.css';
+
+@import 'src/css/adaptation/media400.css';

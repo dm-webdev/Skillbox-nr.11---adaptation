@@ -1,0 +1,16 @@
+.about {
+  margin-bottom: 123px;
+}
+
+.section_heading {
+  margin-bottom: 22px;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 59px;
+}
+
+.about__desk {
+  margin-top: 0;
+  margin-bottom: 42px;
+  padding-right: 30%;
+}

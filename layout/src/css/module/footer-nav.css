@@ -25,27 +25,3 @@
   color: #FF9900;
   transition: color 0.2s;
 }
-
-@media screen and (max-width: 1500px) {
-  .footer-nav {
-    order: 3;
-    margin-top: 1%;
-    margin-right: 8%;
-  }
-
-  .footer-nav__item:not(:last-child) {
-    margin-bottom: 28px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .footer-nav {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .footer-nav {
-    display: none;
-  }
-}
