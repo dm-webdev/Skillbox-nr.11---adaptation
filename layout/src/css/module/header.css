@@ -79,30 +79,24 @@
 .burger {
   display: none;
   position: relative;
+  margin-top: 12px;
   margin-left: 16px;
-  padding: 0 15px;
+  padding: 15px;
+  
   border: none;
+  border-top: 3px solid #333333;
   background-color: inherit;
   cursor: pointer;
+  transition: border-color 0.2s;
 }
 
-.burger__link {
-  position: absolute;
-  display: block;
-  right: 0;
-  top: 30%;
-  width: 30px;
-  height: 3px;
-  background: #333333;
-  transition: background 0.2s;
-}
-
-.burger__link::after,
-.burger__link::before {
+.burger::after,
+.burger::before {
   content: '';
   position: absolute;
   display: block;
-  width: 30px;
+  right: 0;
+  width: 100%;
   height: 3px;
   background: #333333;
   transform-origin: right;
@@ -110,35 +104,19 @@
     transform 0.2s;
 }
 
-.burger__link::after {
-  top: 10px;
+.burger::after {
+  top: 8px;
 }
 
-.burger__link::before {
-  top: 20px;
+.burger::before {
+  top: 19px;
 }
 
-.burger:hover .burger__link::before,
-.burger:active .burger__link::before,
-.burger:focus .burger__link::before {
+.burger:hover.burger::before,
+.burger:active.burger::before,
+.burger:focus.burger::before {
   background: #FF9900;
   transform: scaleX(0.55);
-  transition: background 0.2s,
-    transform 0.2s;
-}
-
-.burger:hover .burger__link,
-.burger:active .burger__link,
-.burger:focus .burger__link {
-  background: #FF9900;
-  transition: background 0.2s;
-}
-
-.burger:hover .burger__link::after,
-.burger:active .burger__link::after,
-.burger:focus .burger__link::after {
-  background: #FF9900;
-  transform: scaleX(0.8);
   transition: background 0.2s,
     transform 0.2s;
 }
@@ -146,5 +124,16 @@
 .burger:hover,
 .burger:active,
 .burger:focus {
+  border-color: #FF9900;
   outline: none;
+  transition: border-color 0.2s;
+}
+
+.burger:hover.burger::after,
+.burger:active.burger::after,
+.burger:focus.burger::after {
+  background: #FF9900;
+  transform: scaleX(0.8);
+  transition: background 0.2s,
+    transform 0.2s;
 }

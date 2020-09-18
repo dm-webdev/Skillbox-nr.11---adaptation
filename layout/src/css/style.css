@@ -49,28 +49,10 @@ a {
 
 .container {
   margin: 0 auto; /*центрирование контейнера*/
-  max-width: 1770px; /*максимальная ширина контейнера, если width, то задавать в относительных единицах, иначе не будет адаптивной версти.*/
+  width: 1770px; /*максимальная ширина контейнера, если width, то задавать в относительных единицах, иначе не будет адаптивной версти.*/
 }
 
-@media screen and (max-width: 1790px) {
-  .container {
-    padding: 0 50px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .container {
-    padding: 0 30px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body {
-    font-size: 14px;
-    line-height: 28px;
-  }
-
-  .container {
-    padding: 0 15px;
-  }  
+picture {
+  font-size: 0;
+  line-height: 0;
 }

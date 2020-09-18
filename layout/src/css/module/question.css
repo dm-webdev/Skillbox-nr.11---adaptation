@@ -12,6 +12,7 @@
 }
 
 .question-btn {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,41 +27,27 @@
 }
 
 .question_desk {
+  padding-right: 150px;
   font-weight: 700;
   font-size: 24px;
   text-align: left;
   line-height: 53px;
 }
 
-.question__expand {
-  margin-left: 20px;
-  position: relative;
-  padding: 25px;
-  border: none;
-  border-radius: 25px;
-  background: #ECECEC;
-  transition: background 0.2s;
-}
-
-.question__expand::before {
+.question-btn::after {
   content: '';
   position: absolute;
-  left: 10px;
-  width: 30px;
-  height: 1px;
-  background-color: #666666;
-  transition: border 0.2s;
-}
-
-.question__expand::after {
-  content: '';
-  position: absolute;
-  left: 10px;
-  width: 30px;
-  height: 1px;
-  background-color: #666666;
-  transform: rotateZ(90deg);
-  transition: border 0.2s;
+  right: 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ECECEC;
+  background-image: url('../../img/cross-grey.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  transition: background 0.2s,
+  background-image 0.2s;
 }
 
 .question-btn:hover,
@@ -70,20 +57,11 @@
   transition: color 0.2s;
 }
 
-.question-btn:hover .question__expand::before,
-.question-btn:active .question__expand::before,
-.question-btn:focus .question__expand::before,
-.question-btn:hover .question__expand::after,
-.question-btn:active .question__expand::after,
-.question-btn:focus .question__expand::after {
-  background-color: #000000;
-  transition: border 0.2s;
-}
-
-.question-btn:hover .question__expand,
-.question-btn:active .question__expand,
-.question-btn:focus .question__expand {
-  outline: none;
-  background: #D2D2D2;
-  transition: background 0.2s;
+.question-btn:hover.question-btn::after,
+.question-btn:active.question-btn::after,
+.question-btn:focus.question-btn::after {
+  background-color:  #D2D2D2;
+  background-image: url('../../img/cross-dark.svg');
+  transition: background 0.2s,
+  background-image 0.2s;
 }

@@ -32,12 +32,12 @@
 }
 
 .todo__article {
-  padding-right: 57%;
-  background-image: url('../../img/rectangle.jpg');
+  padding-right: 1012px;
+  background-image: url('https://via.placeholder.com/870x465.jpg/0000FF/808080?text=Todo+870x465@1x+jpg+XL');
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
-  background-size: 49%;
+  background-size: 870px;
 }
 
 .todo__article__heading {
@@ -79,4 +79,16 @@
   color: #FFFFFF;
   transition: color 0.2s,
     background 0.2s;
+}
+
+@media (min-resolution: 2dppx) {
+  .todo__article {    
+    background-image: url('https://via.placeholder.com/1740x930.jpg/FF0000/FFFFFF?text=Todo+1740x930@2x+jpg+XL');
+  }
+}
+
+@media (min-resolution: 3dppx) {
+  .todo__article {    
+    background-image: url('https://via.placeholder.com/2610x1395.jpg/FFFF00/000000?text=Todo+2610x1395@3x+jpg+XL');
+  }
 }

@@ -4,11 +4,11 @@
 }
 
 .intro {
-  padding: 103px 45% 92px 78px;
+  padding: 103px 850px 92px 78px;
   margin-bottom: 97px;
   color: #FFFFFF;
   background-color: #333333;
-  background-image: url('../../img/photo-of-balconies.jpg');
+  background-image: url('https://via.placeholder.com/1770x620.jpg/0000FF/808080?text=Banner+1770x620@1x+jpg+XL');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,4 +50,16 @@
 .btn-link:focus {
   outline: none;
   background: rgba(255, 153, 0, 0.6);
+}
+
+@media (min-resolution: 2dppx) {
+  .intro {    
+    background-image: url('https://via.placeholder.com/3540x1240.jpg/FF0000/FFFFFF?text=Banner+3540x1240@2x+jpg+XL');
+  }
+}
+
+@media (min-resolution: 3dppx) {
+  .intro {    
+    background-image: url('https://via.placeholder.com/5310x1860.jpg/FFFF00/000000?text=Banner+5310x1860@3x+jpg+XL');
+  }
 }

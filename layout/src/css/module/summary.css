@@ -4,10 +4,11 @@
 
 .preview {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end;  
+  width: 870px;
   margin-right: 30px;
   background-color: #333333;
-  background-image: url('../../img/about.jpg');
+  background-image: url('https://via.placeholder.com/870x622.jpg/0000FF/808080?text=About+870x622@1x+jpg+XL');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,6 +18,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 38px 68px 44px 54px;
+  width: 100%;
   font-weight: 700;
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(40px);
@@ -24,7 +26,7 @@
 
 .preview__desk {
   margin: 0;
-  width: 67%;
+  width: 497px;
   line-height: 31px;
   letter-spacing: calc(0.05rem / 16);
   color: #ffffff;
@@ -51,7 +53,7 @@
 .summary__list {
   padding: 0;
   margin: 0;
-  width: 86%;
+  width: 870px;
   list-style: none;
 }
 
@@ -63,8 +65,8 @@
 .summary__item::before {
   content: '';
   position: absolute;
-  top: 30%;
-  left: 9.5%;
+  top: 90px;
+  left: 82px;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -76,15 +78,15 @@
   position: absolute;
   width: 156px;
   height: 156px;
-  top: 20%;
-  left: 14%;
+  top: 60px;
+  left: 122px;
   background-image: url('../../img/package.svg');  
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .summary__item:nth-child(1) {
-  padding: 55px 100px 45px 34.2%;
+  padding: 55px 100px 45px 300px;
 }
 
 .summary__item:nth-child(2)::after {
@@ -92,15 +94,15 @@
   position: absolute;
   width: 136px;
   height: 136px;
-  top: 18%;
-  left: 15.5%;
+  top: 52px;
+  left: 135px;
   background-image: url('../../img/settings.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .summary__item:nth-child(2) {
-  padding: 50px 100px 50px 34.2%;
+  padding: 50px 100px 50px 300px;
 }
 
 .summary__item:not(:last-child) {
@@ -113,4 +115,16 @@
   margin-bottom: 4px;
   font-size: 24px;
   line-height: 29px;
+}
+
+@media (min-resolution: 2dppx) {
+  .preview {    
+    background-image: url('https://via.placeholder.com/1740x1244.png/FF0000/FFFFFF?text=About+1740x1244@2x+jpg+XL');
+  }
+}
+
+@media (min-resolution: 3dppx) {
+  .preview {    
+    background-image: url('https://via.placeholder.com/2610x1866.png/FFFF00/000000?text=About+2610x1866@3x+jpg+XL');
+  }
 }

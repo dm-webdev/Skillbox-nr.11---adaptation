@@ -9,6 +9,7 @@
   flex-flow: column wrap;
   padding-top: 48px;
   padding-bottom: 80px;
+  background: #222222;
 }
 
 .footer__logo {
@@ -16,6 +17,8 @@
   flex-basis: 72px;
   margin-bottom: 8px;
   width: 224px;
+  font-size: 0;
+  line-height: 0;
 }
 
 .copy {
@@ -23,8 +26,8 @@
   order: 2;
   flex: 1 1 0;
   margin-top: 0;
-  margin-bottom: 42px;
-  width: 20%;
+  margin-bottom: 40px;
+  width: 354px;
 }
 
 .social {
@@ -34,7 +37,7 @@
   flex-flow: row nowrap;
   margin: 0;
   padding: 0;
-  width: 20%;
+  width: 354px;
   list-style: none;
 }
 
