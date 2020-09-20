@@ -4,8 +4,8 @@
   font-family: 'Montserrat'; /* Устанавливает семейство шрифта. */
   font-display: swap; /* определяет то, как шрифт будет отображаться в зависимости от того, загрузился ли он и готов ли к использованию. */
   src: local('Montserrat Regular'), /* Задает ресурс, содержащий данные шрифта. Имя шрифта на компьютере пользователя */
-    url('../fonts/Montserrat-Regular.woff2'), /* адрес расположения файла шрифта формата woff2*/
-    url('../fonts/Montserrat-Regular.woff'); /* адрес расположения файла шрифта woff*/
+    url('../fonts/Montserrat-Regular.woff2') format('woff2'), /* адрес расположения файла шрифта формата woff2*/
+    url('../fonts/Montserrat-Regular.woff') format('woff'); /* адрес расположения файла шрифта woff*/
 }
 
 @font-face {
@@ -14,8 +14,8 @@
   font-display: swap;
   font-family: 'Montserrat';
   src: local('Montserrat SemiBold'),
-    url('../fonts/Montserrat-SemiBold.woff2'),
-    url('../fonts/Montserrat-SemiBold.woff');
+    url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-SemiBold.woff') format('woff');
 }
 
 @font-face { 
@@ -24,8 +24,8 @@
   font-display: swap;
   font-family: 'Montserrat';
   src: local('Montserrat Bold'),
-    url('../fonts/Montserrat-Bold.woff2'),
-    url('../fonts/Montserrat-Bold.woff');
+    url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff');
 }
 
 @font-face {
@@ -34,6 +34,6 @@
   font-display: swap;
   font-family: 'Montserrat';
   src: local('Montserrat ExtraBold'),
-    url('../fonts/Montserrat-ExtraBold.woff2'),
-    url('../fonts/Montserrat-ExtraBold.woff');
+    url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Montserrat-ExtraBold.woff') format('woff');
 }
