@@ -1,5 +1,5 @@
 .question__list {
-  margin-top: 40px;
+  margin-top: 38px;
   padding: 0;
   list-style: none;
 }
@@ -54,7 +54,6 @@
 .question-btn:active,
 .question-btn:focus {
   color: #FF9900;
-  transition: color 0.2s;
 }
 
 .question-btn:hover.question-btn::after,
@@ -62,6 +61,4 @@
 .question-btn:focus.question-btn::after {
   background-color:  #D2D2D2;
   background-image: url('../../img/cross-dark.svg');
-  transition: background 0.2s,
-  background-image 0.2s;
 }

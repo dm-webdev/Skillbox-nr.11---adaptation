@@ -1,7 +1,7 @@
 .header-bar {
   display: flex;
   flex-flow: row wrap;
-  padding: 15px 0;
+  padding: 15px 75px;
 }
 
 .header-logo {
@@ -51,9 +51,7 @@
 .header-nav__link:hover,
 .header-nav__link:active,
 .header-nav__link:focus {
-  outline: none;
   border-bottom-color: #FF9900;
-  transition: border-color 0.2s;
 }
 
 .search-btn {
@@ -72,8 +70,6 @@
 .search-btn:active,
 .search-btn:focus {
   filter: invert(65%) sepia(32%) saturate(5235%) hue-rotate(1deg) brightness(106%) contrast(105%);
-  transition: filter 0.2s;
-  outline: none;
 }
 
 .burger {
@@ -81,8 +77,7 @@
   position: relative;
   margin-top: 12px;
   margin-left: 16px;
-  padding: 15px;
-  
+  padding: 15px;  
   border: none;
   border-top: 3px solid #333333;
   background-color: inherit;
@@ -100,8 +95,8 @@
   height: 3px;
   background: #333333;
   transform-origin: right;
-  transition: background 0.2s,
-    transform 0.2s;
+  transition: transform 0.2s,
+  background 0.2s;
 }
 
 .burger::after {
@@ -117,16 +112,12 @@
 .burger:focus.burger::before {
   background: #FF9900;
   transform: scaleX(0.55);
-  transition: background 0.2s,
-    transform 0.2s;
 }
 
 .burger:hover,
 .burger:active,
 .burger:focus {
   border-color: #FF9900;
-  outline: none;
-  transition: border-color 0.2s;
 }
 
 .burger:hover.burger::after,
@@ -134,6 +125,4 @@
 .burger:focus.burger::after {
   background: #FF9900;
   transform: scaleX(0.8);
-  transition: background 0.2s,
-    transform 0.2s;
 }

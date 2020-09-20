@@ -15,8 +15,7 @@
   margin-right: 70px;
   padding-left: 0;
   padding-right: 15px;
-  border: none;
-  outline: none;
+  border: none;   
   font-size: 18px;
   line-height: 22px;
   background: inherit;
@@ -28,7 +27,6 @@
 .btn-group__step:active,
 .btn-group__step:focus {
   color: #FF9900;
-  transition: color 0.2s;
 }
 
 .todo__article {
@@ -74,11 +72,8 @@
 .link-contract:hover,
 .link-contract:active,
 .link-contract:focus {
-  outline: none;
   background: #333333;
   color: #FFFFFF;
-  transition: color 0.2s,
-    background 0.2s;
 }
 
 @media (min-resolution: 2dppx) {
