@@ -1,61 +1,49 @@
 .summary {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: center;
 }
 
 .preview {
   display: flex;
-  align-items: flex-end;  
-  width: 870px;
-  min-height: 622px;
-  margin-bottom: 30px;
-  margin-right: 30px;
-  background-color: #333333;
-  background-image: url('https://via.placeholder.com/870x622.png/FF0000/FFFFFF?text=About+870x622@2x+jpg+XL');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.preview__container::after {
-  content: '';
-  z-index: -1;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  align-items: flex-end;
+  margin-right: 0;    
+  margin-bottom: 36px;
+  padding-top: 208px;
   width: 100%;
-  height: 100%;
-  background-image: url('../../img/background-min.jpg');
+  height: auto;
+  background-color: inherit;
+  background-image: url('https://via.placeholder.com/290x200.jpg/0000FF/808080?text=About+290x200@1x+jpg+XS');
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100% 200px;
 }
 
 .preview__container {
-  position: relative;
-  z-index: 2;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 38px 68px 44px 54px;
-  width: 100%;
-  font-weight: 700;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 0;
+  background: none;
 }
 
 .preview__desk {
-  margin: 0;
-  width: 497px;
-  line-height: 31px;
-  letter-spacing: calc(0.05rem / 16);
-  color: #ffffff;
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #333333;
 }
 
 .preview__btn {
   margin-top: 3px;
-  padding: 19px 35px 16px 39px;
+  margin-left: 0;
+  padding: 9px 44px 12px 42px;
   border: 2px solid #ff9900;
+  font-size: 12px;
+  line-height: 15px;
   text-align: center;
-  color: #ffffff;
-  line-height: 20px;
+  color: #ff9900;
   background-color: inherit;
   cursor: pointer;
 }
@@ -64,83 +52,85 @@
 .preview__btn:active,
 .preview__btn:focus {
   background: #ff9900;
+  color: #ffffff;
 }
 
 .summary__list {
   padding: 0;
   margin: 0;
-  width: 870px;
   list-style: none;
 }
 
 .summary__item {
   position: relative;
-  border: 1px solid #cacaca;
+  border: none;
+}
+
+.summary__item:nth-child(1) {
+  padding: 50px 0 0 0;
+  margin-bottom: 20px;
+}
+
+.summary__item:nth-child(2) {
+  padding: 55px 0 0 0;
 }
 
 .summary__item::before {
   content: '';
   position: absolute;
-  top: 90px;
-  left: 82px;
-  width: 120px;
-  height: 120px;
+  top: 10px;
+  left: 0;
+  width: 43px;
+  height: 43px;
   border-radius: 50%;
   background-color: #FF9900;
+}
+
+.summary__item:nth-child(2)::before {
+  top: 14px;
 }
 
 .summary__item:nth-child(1)::after {
   content: '';
   position: absolute;
-  width: 156px;
-  height: 156px;
-  top: 60px;
-  left: 122px;
+  width: 57px;
+  height: 57px;
+  top: 0;
+  left: 14px;
   background-image: url('../../img/package.svg');  
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.summary__item:nth-child(1) {
-  padding: 55px 100px 45px 300px;
-}
-
 .summary__item:nth-child(2)::after {
   content: '';
   position: absolute;
-  width: 136px;
-  height: 136px;
-  top: 52px;
-  left: 135px;
+  width: 49px;
+  height: 49px;
+  top: 0;
+  left: 20px;  
   background-image: url('../../img/settings.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.summary__item:nth-child(2) {
-  padding: 50px 100px 50px 300px;
-}
-
-.summary__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .summary__item__header {
   display: block;
   margin-top: 0;
-  margin-bottom: 4px;
-  font-size: 24px;
-  line-height: 29px;
+  margin-bottom: 1px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
-@media (min-resolution: 2dppx) {
-  .preview {    
-    background-image: url('https://via.placeholder.com/1740x1244.png/FF0000/FFFFFF?text=About+1740x1244@2x+jpg+XL');
+@media (min-resolution: 2dppx) {  
+  .preview {
+    background-image: url('https://via.placeholder.com/580x400.png/FF0000/FFFFFF?text=About+580x400@2x+jpg+XS');
   }
 }
 
 @media (min-resolution: 3dppx) {
-  .preview {    
-    background-image: url('https://via.placeholder.com/2610x1866.png/FFFF00/000000?text=About+2610x1866@3x+jpg+XL');
+  .preview {
+    background-image: url('https://via.placeholder.com/870x600.png/FFFF00/000000?text=About+870x600@3x+jpg+XS');
   }
 }

@@ -1,69 +1,61 @@
-.footer {  
+.footer {
   color: #CACACA;
   background: #222222;
 }
 
-.footer-container {  
+.footer-container {
   display: grid;
-  grid-template-areas: "footer__logo request footer-nav"
-  "copy request footer-nav"
-  "social request footer-nav";
-  padding-top: 48px;
-  padding-bottom: 80px;
+  grid-template-areas: "request"
+    "footer__logo"
+    "social";
+  justify-items: center;
+  padding-top: 28px;
+  padding-bottom: 5px;
   background: #222222;
 }
 
 .footer__logo {
   grid-area: footer__logo;
-  margin-bottom: 0;
-  width: 224px;
-  height: 72px;
+  justify-self: center;
+  margin-bottom: 17px;
+  margin-left: 0;
+  width: 131px;
+  height: 42px;
   font-size: 0;
   line-height: 0;
 }
 
 .copy {
-  grid-area: copy;
-  margin: 0;
-  
-  max-width: 354px;
+  display: none;
 }
 
 .social {
   grid-area: social;
   display: flex;
   flex-flow: row nowrap;
-  margin: 0;
-  margin-top: 40px;
+  justify-content: center;
+  margin: 20px auto;
+  margin-top: 0;
   padding: 0;
+  width: 100%;
   list-style: none;
 }
 
 .request {
   grid-area: request;
   display: flex;
-  justify-self: center;
-  padding-right: 25px;
-}
-
-.footer-nav {
-  grid-area: footer-nav;
-  justify-self: end;
-  display: flex;
-  flex-flow: column nowrap;
-  margin-left: 25px;
-  margin-top: 152px;
-  padding-right: 25px;
-  list-style: none;
+  justify-content: center;
+  margin-bottom: 23px;
+  width: 100%;
 }
 
 .social__item:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .social__link {
   display: block;
-  padding: 30px;
+  padding: 17px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -91,23 +83,25 @@
 
 .request-form {
   position: relative;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #595959;
 }
 
 .request-form__heading {
   margin-top: 10px;
-  margin-bottom: 22px;
+  margin-bottom: 21px;
   color: #CACACA;
 }
 
 .form_input {
   display: block;
-  margin-bottom: 24px;
-  padding: 22px 0 20px 25px;
-  width: 570px;
+  margin-bottom: 25px;
+  padding: 20px 0 20px 20px;
+  width: 100%;
   outline: none;
   border: none;
   background: #414141;
-  line-height: 19px;
+  line-height: 20px;
 }
 
 .form_input::placeholder {
@@ -115,18 +109,18 @@
 }
 
 .request-form__message {
-  padding: 15px 0 16px 25px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+  padding: 15px 0 16px 20px;
   line-height: 30px;
 }
 
 .request-form__button {
-  margin-left: 0;
-  margin-right: 24px;
-  padding: 15px 50px 13px 54px;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  padding: 12px 29px 13px 29px;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 12px;
+  line-height: 15px;
   color: #FFFFFF;
 }
 
@@ -134,6 +128,7 @@
   position: relative;
   display: inline-flex;
   align-items: center;
+  margin-left: 10px;
   user-select: none;
   cursor: pointer;
 }
@@ -148,6 +143,8 @@
   display: inline-flex;
   align-items: center;
   user-select: none;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .confirm__desk::before {
@@ -174,19 +171,6 @@
   background-image: url('../../img/ok.svg');
 }
 
-.footer-nav__item {
-  margin-bottom: 14px;
-}
-
-.footer-nav__link {
-  display: block;
-  font-size: 18px;
-  line-height: 22px;
-  transition: color 0.2s;
-}
-
-.footer-nav__link:hover,
-.footer-nav__link:active,
-.footer-nav__link:focus {
-  color: #FF9900;
+.footer-nav {
+  display: none;
 }

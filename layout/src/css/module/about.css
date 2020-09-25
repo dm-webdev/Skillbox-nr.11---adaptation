@@ -1,16 +1,18 @@
 .about {
-  margin-bottom: 95px;
+  margin-bottom: 32px;
 }
 
 .section_heading {
-  margin-bottom: 22px;
-  font-size: 48px;
-  font-weight: normal;
-  line-height: 59px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.about__heading {
+  margin-bottom: 3px;
 }
 
 .about__desk {
   margin-top: 0;
-  margin-bottom: 42px;
-  padding-right: 535px;
+  margin-bottom: 11px;
 }

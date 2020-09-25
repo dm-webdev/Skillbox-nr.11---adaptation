@@ -1,21 +1,29 @@
+.question {
+  margin-bottom: 35px;
+}
+
+.question__heading {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
 .question__list {
-  margin-top: 38px;
   padding: 0;
   list-style: none;
 }
 
 .question__item {
-  padding-top: 25px;
-  padding-bottom: 32px;
+  padding-top: 18px;
+  padding-bottom: 22px;
   border-top: 1px solid #CACACA;
+}
+
+.question__item:last-child {
   border-bottom: 1px solid #CACACA;
 }
 
 .question-btn {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-left: 0;
   padding-right: 2px;
   width: 100%;
@@ -27,27 +35,30 @@
 }
 
 .question_desk {
-  padding-right: 150px;
+  padding-right: 64px;
   font-weight: 700;
-  font-size: 24px;
   text-align: left;
-  line-height: 53px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: calc(0.15rem/16);
 }
 
 .question-btn::after {
   content: '';
   position: absolute;
-  right: 2px;
-  width: 50px;
-  height: 50px;
+  right: 0px;
+  top: calc(50% - 14px);
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #ECECEC;
   background-image: url('../../img/cross-grey.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 30px 30px;
+  background-size: 18px 18px;
   transition: background 0.2s,
-  background-image 0.2s;
+    background-image 0.2s;
 }
 
 .question-btn:hover,
@@ -59,6 +70,6 @@
 .question-btn:hover.question-btn::after,
 .question-btn:active.question-btn::after,
 .question-btn:focus.question-btn::after {
-  background-color:  #D2D2D2;
+  background-color: #D2D2D2;
   background-image: url('../../img/cross-dark.svg');
 }

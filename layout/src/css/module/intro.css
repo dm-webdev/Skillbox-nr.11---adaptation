@@ -1,46 +1,46 @@
-.main { 
-  margin-bottom: 85px;
+.main {
+  margin-bottom: 39px;
   background: linear-gradient(to bottom, #E5E5E5 0%, #FFFFFF 100%);
 }
 
 .intro {
-  padding: 103px 850px 92px 78px;
-  margin-bottom: 97px;
+  margin-bottom: 39px;
+  padding: 31px 14px 40px;
+  text-align: center;
   color: #FFFFFF;
   background-color: #333333;
-  background-image: url('https://via.placeholder.com/1770x620.jpg/0000FF/808080?text=Banner+1770x620@1x+jpg+XL');
+  background-image: url('https://via.placeholder.com/290x307.jpg/0000FF/808080?text=Banner+290x307@1x+jpg+XS');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .intro__header {
   margin-top: 0;
-  margin-bottom: 19px;
+  margin-bottom: 7px;
   font-weight: 800;
-  font-size: 70px;
-  line-height: 86px;
-  letter-spacing: calc(0.3rem/16);
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
 }
 
 .intro__desk {
   margin-top: 0;
-  margin-bottom: 96px;
-  font-weight: bold;
-  font-size: 23px;
-  line-height: 29px;
-  letter-spacing: calc(0.23rem/16);
+  margin-bottom: 35px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: calc(-0.1rem/16);
 }
 
 .btn-link {
-  margin-left: 3px;
-  padding: 28px 38px 24px 39px;
+  padding: 11px 30px 14px 30px;
   border: none;
   text-align: center;
   font-weight: 700;
-  font-size: 23px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 15px;
   color: #FFFFFF;
-  letter-spacing: calc(0.1rem/16);
+  letter-spacing: calc(-0.1rem/16);
   background-color: #FF9900;
   cursor: pointer;
 }
@@ -52,13 +52,13 @@
 }
 
 @media (min-resolution: 2dppx) {
-  .intro {    
-    background-image: url('https://via.placeholder.com/3540x1240.jpg/FF0000/FFFFFF?text=Banner+3540x1240@2x+jpg+XL');
+  .intro {
+    background-image: url('https://via.placeholder.com/580x614.jpg/FF0000/FFFFFF?text=Banner+580x614@2x+jpg+XS');
   }
 }
 
 @media (min-resolution: 3dppx) {
-  .intro {    
-    background-image: url('https://via.placeholder.com/5310x1860.jpg/FFFF00/000000?text=Banner+5310x1860@3x+jpg+XL');
+  .intro {
+    background-image: url('https://via.placeholder.com/870x921.jpg/FFFF00/000000?text=Banner+870x921@3x+jpg+XS');
   }
 }
