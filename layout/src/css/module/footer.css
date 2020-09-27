@@ -4,19 +4,21 @@
 }
 
 .footer-container {
-  display: grid;
-  grid-template-areas: "request"
-    "footer__logo"
-    "social";
-  justify-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   padding-top: 28px;
   padding-bottom: 5px;
   background: #222222;
 }
 
+.footer_wrap {
+  order: 2;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .footer__logo {
-  grid-area: footer__logo;
-  justify-self: center;
   margin-bottom: 17px;
   margin-left: 0;
   width: 131px;
@@ -30,7 +32,6 @@
 }
 
 .social {
-  grid-area: social;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -42,7 +43,7 @@
 }
 
 .request {
-  grid-area: request;
+  order: 1;
   display: flex;
   justify-content: center;
   margin-bottom: 23px;

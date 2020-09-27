@@ -108,7 +108,7 @@
   width: 49px;
   height: 49px;
   top: 0;
-  left: 20px;  
+  left: 17px;  
   background-image: url('../../img/settings.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +121,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: calc(0.15rem/16);
 }
 
 @media (min-resolution: 2dppx) {  

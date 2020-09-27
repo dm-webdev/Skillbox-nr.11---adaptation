@@ -3,13 +3,19 @@
   background: linear-gradient(to bottom, #E5E5E5 0%, #FFFFFF 100%);
 }
 
+.intro_container {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;  
+}
+
 .intro {
   margin-bottom: 39px;
-  padding: 31px 14px 40px;
+  padding: 32px 14px 40px;
   text-align: center;
   color: #FFFFFF;
   background-color: #333333;
-  background-image: url('https://via.placeholder.com/290x307.jpg/0000FF/808080?text=Banner+290x307@1x+jpg+XS');
+  background-image: url('https://via.placeholder.com/290x262.jpg/0000FF/808080?text=Banner+290x262@1x+jpg+XS');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -33,7 +39,7 @@
 }
 
 .btn-link {
-  padding: 11px 30px 14px 30px;
+  padding: 11px 29px 14px 29px;
   border: none;
   text-align: center;
   font-weight: 700;
@@ -53,12 +59,12 @@
 
 @media (min-resolution: 2dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/580x614.jpg/FF0000/FFFFFF?text=Banner+580x614@2x+jpg+XS');
+    background-image: url('https://via.placeholder.com/580x524.jpg/FF0000/FFFFFF?text=Banner+580x614@2x+jpg+XS');
   }
 }
 
 @media (min-resolution: 3dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/870x921.jpg/FFFF00/000000?text=Banner+870x921@3x+jpg+XS');
+    background-image: url('https://via.placeholder.com/870x786.jpg/FFFF00/000000?text=Banner+870x921@3x+jpg+XS');
   }
 }
