@@ -1,14 +1,10 @@
-.footer {
-  color: #CACACA;
-  background: #222222;
-}
-
 .footer-container {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   padding-top: 28px;
   padding-bottom: 5px;
+  color: #CACACA;
   background: #222222;
 }
 

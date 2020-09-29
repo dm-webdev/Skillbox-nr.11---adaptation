@@ -1,16 +1,13 @@
-.main {
-  margin-bottom: 39px;
-  background: linear-gradient(to bottom, #E5E5E5 0%, #FFFFFF 100%);
-}
-
 .intro_container {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;  
+  padding-bottom: 39px;
+  max-width: 320px;
+  background: #FFFFFF;
 }
 
-.intro {
-  margin-bottom: 39px;
+.intro {  
   padding: 32px 14px 40px;
   text-align: center;
   color: #FFFFFF;

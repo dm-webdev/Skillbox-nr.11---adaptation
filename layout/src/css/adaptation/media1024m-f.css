@@ -1,4 +1,4 @@
-@media all and (min-width: 1010px) {
+@media only screen and (min-width: 1010px) {
   .container {
     max-width: 1024px;
   }
@@ -23,19 +23,14 @@
     margin-top: 12px;
   }
 
-  .main {
-    margin-bottom: 58px;
-  }
-
   .intro_container {
     padding-right: 50px;
     padding-left: 50px;
+    max-width: 1024px;
   }
 
-  .intro {
-    
+  .intro {    
     padding: 160px 138px 114px 45px;
-    max-width: 1024px;
     background-image: url('https://via.placeholder.com/924x768.jpg/0000FF/808080?text=Banner+924x768@1x+jpg+Lg');
     text-align: left;
   }
@@ -49,8 +44,16 @@
     margin-bottom: 110px;
   }
 
+  .btn-link {
+    padding: 31px 38px 33px 39px;
+  }
+
+  .about {
+    margin-bottom: 58px;
+  }
+
   .about__desk {
-    margin-bottom: 59px;
+    margin-bottom: 58px;
     padding-right: 30px;
   }
 
@@ -74,11 +77,11 @@
   }
 
   .summary__item:nth-child(1) {
-    padding: 50px 100px 50px 348px;
+    padding: 52px 100px 48px 348px;
   }
 
   .summary__item:nth-child(2) {
-    padding: 50px 100px 50px 348px;
+    padding: 52px 100px 49px 348px;
   }
 
   .summary__item::before {
@@ -108,7 +111,7 @@
   }
 
   .todo {
-    margin-bottom: 58px;
+    margin-bottom: 59px;
   }
 
   .todo__heading {
@@ -120,7 +123,7 @@
     display: inline-flex;
     justify-content: flex-start;
     margin-top: 12px;
-    margin-bottom: 45px;
+    margin-bottom: 48px;
   }
 
   .btn-group__step:not(:last-of-type) {
@@ -141,12 +144,21 @@
     margin-bottom: 5px;
   }
 
+  .todo__article__link {
+    padding: 20px 37px 20px 38px;
+  }
+
+  .question {
+    padding-bottom: 41px;
+  }
+
   .question__heading {
     letter-spacing: 0;
   }
 
   .question__item {
     padding-top: 37px;
+    padding-bottom: 41px;
   }
 
   .question__item:nth-child(1) {
@@ -156,14 +168,11 @@
 
   .question__item:nth-child(3) {
     padding-top: 37px;
+    padding-bottom: 41px;
   }
 
   .question__item:nth-child(4) {
     padding-top: 23px;
-  }
-
-  .question-btn::after {
-    right: 2px;
   }
 
   .footer-container {
@@ -185,8 +194,12 @@
     padding-bottom: 0;
   }
 
+  .request-form__heading {
+    margin-bottom: 23px;
+  }
+
   .form_input {
-    padding: 22px 0 19px 25px;
+    padding: 22px 0 18px 25px;
     margin-bottom: 24px
   }
 
@@ -195,9 +208,13 @@
     padding: 16px 0 15px 25px;
   }
 
+  .request-form__button {
+    padding: 15px 41px 13px 38px;
+  }
+
   .footer__logo {
     justify-self: left;
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
   }
 
   .footer-nav {

@@ -1,4 +1,4 @@
-@media all and (min-width: 754px) {
+@media only screen and (min-width: 754px) {
   body {
     font-size: 16px;
     line-height: 32px;
@@ -51,25 +51,21 @@
   .search-btn:hover,
   .search-btn:active,
   .search-btn:focus {
-    filter: invert(65%) sepia(32%) saturate(5235%) hue-rotate(1deg) brightness(106%) contrast(105%);
-  }
-
-  .main {
-    margin-bottom: 42px;
+    background-image: url('../../img/search-hover.svg');
   }
 
   .intro_container {
+    max-width: 768px;
     padding-right: 0;
     padding-left: 0;
+    padding-bottom: 59px;
   }
 
   .intro {
-    margin: 0 auto 59px auto;
     padding: 191px 15px 114px 49px;
     text-align: left;
     background-image: url('https://via.placeholder.com/768x699.jpg/0000FF/808080?text=Banner+768x699@1x+jpg+Md');
     background-position: center;
-    background-size: cover;
   }
 
   .intro__header {
@@ -265,9 +261,13 @@
     letter-spacing: calc(-0.9rem/16);
   }
 
+  .question {
+    padding-bottom: 42px;
+  }
+
   .question__item {
     padding-top: 23px;
-    padding-bottom: 41px;
+    padding-bottom: 25px;
   }
 
   .question__item:nth-child(1) {
@@ -282,11 +282,11 @@
 
   .question__item:nth-child(3) {
     padding-top: 23px;
-    padding-bottom: 41px;
+    padding-bottom: 25px;
   }
 
   .question__item:nth-child(4) {
-    padding-top: 5px;
+    padding-top: 21px;
     padding-bottom: 24px;
   }
 
