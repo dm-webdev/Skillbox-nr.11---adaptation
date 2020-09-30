@@ -1,3 +1,7 @@
+footer {
+  background: #222222;
+}
+
 .footer-container {
   display: flex;
   flex-flow: column nowrap;
@@ -99,6 +103,11 @@
   border: none;
   background: #414141;
   line-height: 20px;
+}
+
+.form_input:active,
+.form_input:focus {
+  box-shadow: 0 0 10px #FF9900;
 }
 
 .form_input::placeholder {

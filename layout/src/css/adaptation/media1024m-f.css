@@ -85,14 +85,14 @@
   }
 
   .summary__item::before {
-    top: 92px;
+    top: 94px;
     left: 110px;
     width: 120px;
     height: 120px;
   }
 
   .summary__item:nth-child(2)::before {
-    top: 95px;
+    top: 97px;
     left: 110px;
   }
 
