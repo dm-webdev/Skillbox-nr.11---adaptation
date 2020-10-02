@@ -244,7 +244,6 @@
 
   .copy {
     order: 3;
-    grid-area: copy;
     display: block;
     margin: 0 0 60px 0;
     max-width: 360px;
