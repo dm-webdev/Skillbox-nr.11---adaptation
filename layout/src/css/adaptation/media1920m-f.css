@@ -1,256 +1,78 @@
 @media only screen and (min-width: 1906px) {
-  .container {
-    max-width: 1920px;
-    padding-right: 75px;
-    padding-left: 75px;
-  }
-
-  .header-bar {
-    padding: 14px 85px 16px 75px;
-  }
-
-  .header-logo {
-    order: 1;
-  }
-
-  .header-nav {
-    order: 2;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 67px;
-    padding-bottom: 3px;
-  }
-
-  .header-nav__list {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    margin: 12px 0 0 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .header-nav__item:not(:last-child) {
-    margin: 0 85px 0 0;
-  }
-
-  .header-nav__link {
-    display: block;
-    padding: 10px 0;
-    border-bottom: 2px solid #FFFFFF;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    transition: border-color 0.2s;
-  }
-
-  .header-nav__link:hover,
-  .header-nav__link:active,
-  .header-nav__link:focus {
-    border-bottom-color: #FF9900;
-  }
-
-  .search-btn {
-    padding: 16px;
-  }
-
-  .burger {
-    display: none;
-  }
-
-  .intro_container { 
-    padding-right: 75px;
-    padding-left: 75px;
-    padding-bottom: 100px;     
-    max-width: 1920px;
-  }
-
   .intro {
-    padding: 102px 850px 90px 78px;
-    background-image: url('https://via.placeholder.com/1770x620.jpg/0000FF/808080?text=Banner+1770x620@1x+jpg+XL');
+    padding: 5.75% 45% 5.15% 4.47%;
+    background-image: url('./../../img/img-xl-min/banner-xl@1x.jpg');
   }
-
-  .intro__header {
-    margin-bottom: 21px;
-    font-size: 70px;
-    line-height: 86px;
-    letter-spacing: calc(0.2rem/16);
-  }
-
-  .intro__desk {
-    margin-bottom: 95px;
-    font-size: 23px;
-    line-height: 29px;
-    letter-spacing: calc(0.5rem/16);
-  }
-
-  .btn-link {
-    padding: 27px 38px 25px 41px;
-    font-size: 23px;
-    line-height: 29px;
-    letter-spacing: calc(0.15rem/16);
-  }
-
-  .about {
-    margin-bottom: 50px;
-  }
-
-  .about__heading {
-    margin-bottom: 22px;
-    text-indent: 0px;
-  }
-
-  .about__desk {
-    margin-bottom: 44px;
-    padding-right: 535px;
-  }
-
+  
   .summary {
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 
   .preview {
     margin-right: 30px;
     margin-top: 0;
-    height: 622px;
-    width: 870px;
-    background-color: #333333;
-    background-image: url('https://via.placeholder.com/870x622.png/FF0000/FFFFFF?text=About+870x622@2x+jpg+XL');
+    padding-top: 25.1%;
+    width: 49.1%;
+    background-image: url('./../../img/img-xl-min/about-xl@1x.jpg');
   }
-
+  
   .preview__container {
     padding: 40px 68px 40px 54px;
   }
 
+  .preview__desk {
+    margin-right: 10%;
+    line-height: 32px;
+  }
+
   .preview__btn {
+    margin-top: 8px;
     margin-bottom: 5px;
   }
 
   .summary__list {
-    width: 870px;
+    display: flex;
+    flex-flow: column;    
+    justify-content: center;
+    margin-bottom: 49px;
+    width: 49.1%;
   }
 
-  .summary__item:nth-child(1) {
+  .summary__item:not(:last-child) {
     margin-bottom: 30px;
-    padding: 53px 100px 48px 300px;
-  }
-
-  .summary__item:nth-child(2) {
-    padding: 53px 100px 47px 300px;
   }
   
-  .summary__item::before {
-    top: 90px;
-    left: 62px;
+  .summary__img_consult {
+    padding: 53px 100px 48px 300px;
+    background-position: 100px 60px, 61px 88px;
+    background-size: 156px 156px, 120px 120px;
   }
 
-  .summary__item:nth-child(2)::before {
-    top: 87px;
-    left: 62px;
-  }
-
-  .summary__item:nth-child(1)::after {
-    top: 60px;
-    left: 100px;
-  }
-
-  .summary__item:nth-child(2)::after {
-    top: 50px;
-    left: 110px;
-  }
-
-  .todo {
-    margin-bottom: 100px;
-  }
-
-  .todo__heading {
-    text-indent: 0;
-  }
-
-  .btn-group {
-    margin-bottom: 48px;
-  }
-
-  .todo__article {
-    padding-right: 1012px;
-    background-image: url('https://via.placeholder.com/870x465.jpg/0000FF/808080?text=Todo+870x465@1x+jpg+XL');
-    background-size: 870px;
-  }
-
-  .todo__article__desk {
-    margin-bottom: 60px;
-  }
-
-  .todo__article__link {
-    padding: 21px 39px 19px 40px;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: calc(0.1rem/16);
-  }
-
-  .question {
-    padding-bottom: 84px;
-  }
-
-  .question__heading {
-    text-indent: 0;
-  }
-
-  .question-btn {
-    padding-left: 4px;
-  }
-
-  .question_desk {
-    font-size: 24px;
-    line-height: 53px;
-    letter-spacing: calc(0.3rem/16);
-  }
-
-  .question__item:nth-child(1) {
-    padding-top: 25px;
-    padding-bottom: 32px;
-  }
-
-  .question__item:nth-child(2) {
-    padding-top: 28px;
-    padding-bottom: 32px;
-  }
-
-  .question__item:nth-child(3) {
-    padding-top: 28px;
-    padding-bottom: 30px;
-  }
-
-  .question__item:nth-child(4) {
-    padding-top: 28px;
-    padding-bottom: 30px;
-  }
-
-  .question__item:nth-child(5) {
-    padding-top: 28px;
-    padding-bottom: 30px;
+  .summary__img_quality {
+    padding: 50px 100px 49px 300px;
+    background-position: 109px 49px, 61px 86px;
+    background-size: 136px 136px, 120px 120px;
   }
 
   .footer-container {
     justify-content: space-between;
-    padding-bottom: 47px;
+    padding-bottom: 65px;
   }
 
   .footer__logo {
-    margin: 0 0 10px 0;
+    margin: 0 0 13px 0;
   }
 
   .copy {
     order: 3;
     display: block;
-    margin: 0 0 60px 0;
+    margin: 20px 5px 60px 0;
     max-width: 360px;
   }
 
   .request {
-    margin-left: 80px;
+    margin-right: 5px;
     width: 570px;
   }
 
@@ -274,28 +96,20 @@
 
 @media screen and (min-width: 1906px) and (min-resolution: 2dppx) {
   .intro {
-    background-image: url("https://via.placeholder.com/3540x1240.jpg/FF0000/FFFFFF?text=Banner+3540x1240@2x+jpg+XL");
+    background-image: url('./../../img/img-xl-min/banner-xl@2x.jpg');
   }
 
   .preview {
-    background-image: url('https://via.placeholder.com/1740x1244.png/FF0000/FFFFFF?text=About+1740x1244@2x+jpg+XL');
-  }
-
-  .todo__article {
-    background-image: url('https://via.placeholder.com/1740x930.jpg/FF0000/FFFFFF?text=Todo+1740x930@2x+jpg+XL');
+    background-image: url('./../../img/img-xl-min/about-xl@2x.jpg');
   }
 }
 
 @media screen and (min-width: 1906px) and (min-resolution: 3dppx) {
   .intro {
-    background-image: url("https://via.placeholder.com/5310x1860.jpg/FFFF00/000000?text=Banner+5310x1860@3x+jpg+XL");
+    background-image: url("./../../img/img-xl-min/banner-xl@3x.jpg");
   }
 
   .preview {
-    background-image: url('https://via.placeholder.com/2610x1866.png/FFFF00/000000?text=About+2610x1866@3x+jpg+XL');
-  }
-
-  .todo__article {
-    background-image: url('https://via.placeholder.com/2610x1395.jpg/FFFF00/000000?text=Todo+2610x1395@3x+jpg+XL');
+    background-image: url('./../../img/img-xl-min/about-xl@2x.jpg');
   }
 }

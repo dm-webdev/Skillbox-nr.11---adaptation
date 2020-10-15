@@ -1,10 +1,10 @@
-@media only screen and (min-width: 1010px) {
-  .container {
-    max-width: 1024px;
+@media only screen and (min-width: 1024px) {
+  .header-bar {
+    padding: 26px 48px 26px 50px;
   }
 
-  .header-bar {
-    padding: 26px 50px;
+  .header-logo {
+    margin-left: 4px;
   }
 
   .burger {
@@ -26,26 +26,25 @@
   .intro_container {
     padding-right: 50px;
     padding-left: 50px;
-    max-width: 1024px;
   }
 
   .intro {    
-    padding: 160px 138px 114px 45px;
-    background-image: url('https://via.placeholder.com/924x768.jpg/0000FF/808080?text=Banner+924x768@1x+jpg+Lg');
+    padding: 17.5% 15% 12.3% 4.85%;
+    background-image: url('./../../img/img-lg-min/banner-lg@1x.jpg');
     text-align: left;
   }
 
   .intro__header {
     margin-bottom: 10px;
-    letter-spacing: calc(0.1rem/16);
+    letter-spacing: 0.001em;
   }
 
   .intro__desk {
-    margin-bottom: 110px;
+    margin-bottom: 14.8%;
   }
 
   .btn-link {
-    padding: 31px 38px 33px 39px;
+    padding: 33px 38px;
   }
 
   .about {
@@ -58,9 +57,9 @@
   }
 
   .preview {
+    padding-top: 50.3%;
     margin-bottom: 49px;
-    height: 640px;
-    background-image: url('https://via.placeholder.com/924x640.jpg/0000FF/808080?text=About+924x640@1x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/about-lg@1x.jpg');
   }
 
   .preview__container {
@@ -68,46 +67,25 @@
   }
 
   .preview__desk {
-    width: 497px;
+    margin-right: 150px;
     line-height: 32px;
   }
 
-  .summary__item {
-    border: 1px solid #cacaca;
+  .preview__btn {
+    margin-top: 5px;
+    padding: 18px 38px;
   }
 
-  .summary__item:nth-child(1) {
+  .summary__img_consult {
     padding: 52px 100px 48px 348px;
+    background-position: 151px 64px, 110px 95px;
+    background-size: 156px 156px, 120px 120px;
   }
 
-  .summary__item:nth-child(2) {
+  .summary__img_quality {
     padding: 52px 100px 49px 348px;
-  }
-
-  .summary__item::before {
-    top: 94px;
-    left: 110px;
-    width: 120px;
-    height: 120px;
-  }
-
-  .summary__item:nth-child(2)::before {
-    top: 97px;
-    left: 110px;
-  }
-
-  .summary__item:nth-child(1)::after {
-    top: 63px;
-    left: 151px;
-    width: 156px;
-    height: 156px;
-  }
-
-  .summary__item:nth-child(2)::after {    
-    top: 60px;
-    left: 158px;
-    width: 136px;
-    height: 136px;
+    background-position: 158px 60px, 110px 96px;
+    background-size: 136px 136px, 120px 120px;
   }
 
   .todo {
@@ -132,11 +110,11 @@
 
   .todo__article {
     padding-top: 0;
-    padding-right: 500px;
-    background-image: url('https://via.placeholder.com/437x689.jpg/0000FF/808080?text=Todo+437x689@1x+jpg+Lg');
+    padding-right: 54%;
+    background-image: url('./../../img/img-lg-min/todo-lg@1x.jpg');
     background-position: right 10px;
     background-repeat: no-repeat;
-    background-size: 437px 689px;
+    background-size: 47.3%;
   }
 
   .todo__article__heading {
@@ -145,6 +123,7 @@
   }
 
   .todo__article__link {
+    margin-top: 0;
     padding: 20px 37px 20px 38px;
   }
 
@@ -153,32 +132,37 @@
   }
 
   .question__heading {
-    letter-spacing: 0;
-  }
-
-  .question__item {
-    padding-top: 37px;
-    padding-bottom: 41px;
+    letter-spacing: 0;    
   }
 
   .question__item:nth-child(1) {
-    padding-top: 48px;
-    padding-bottom: 40px;
+    padding-top: 37px;
+    padding-bottom: 32px;    
+  }
+
+  .question__item:nth-child(2) {
+    padding-top: 25px;
+    padding-bottom: 27px;
   }
 
   .question__item:nth-child(3) {
-    padding-top: 37px;
-    padding-bottom: 41px;
+    padding-top: 27px;
+    padding-bottom: 32px;
   }
 
-  .question__item:nth-child(4) {
-    padding-top: 23px;
+  .question__item:nth-child(5) {
+    padding-top: 27px;
+    padding-bottom: 34px;
+  }
+
+  .question__desk {
+    letter-spacing: 0.01em;
   }
 
   .footer-container {
     flex-flow: row wrap;
     padding-top: 48px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
 
   .footer_wrap {
@@ -245,28 +229,28 @@
 
 @media screen and (min-width: 1010px) and (min-resolution: 2dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/1848x1536.jpg/FF0000/FFFFFF?text=Banner+1848x1536@2x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/banner-lg@2x.jpg');
   }
 
   .preview {
-    background-image: url('https://via.placeholder.com/1848x1280.png/FF0000/FFFFFF?text=About+1848x1280@2x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/about-lg@2x.jpg');
   }
 
   .todo__article {
-    background-image: url('https://via.placeholder.com/874x1378.jpg/FF0000/FFFFFF?text=Todo+874x1378@2x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/todo-lg@2x.jpg');
   }
 }
 
 @media screen and (min-width: 1010px) and (min-resolution: 3dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/2772x2304.jpg/FFFF00/000000?text=Banner+2772x2304@3x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/banner-lg@3x.jpg');
   }
 
   .preview {
-    background-image: url('https://via.placeholder.com/2772x1920.png/FFFF00/000000?text=About+2772x1920@3x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/about-lg@3x.jpg');
   }
 
   .todo__article {
-    background-image: url('https://via.placeholder.com/1311x2067.jpg/FFFF00/000000?text=Todo+1311x2067@3x+jpg+Lg');
+    background-image: url('./../../img/img-lg-min/todo-lg@3x.jpg');
   }
 }

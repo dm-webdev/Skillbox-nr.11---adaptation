@@ -37,11 +37,11 @@
 }
 
 .todo__article {
-  padding-top: 153px;
-  background-image: url('https://via.placeholder.com/290x160.jpg/0000FF/808080?text=Todo+290x160@1x+jpg+XS');
+  padding-top: 53%;
+  background-image: url('./../../img/img-xs-min/todo-xs@1x.jpg');
   background-repeat: no-repeat;
   background-position-y: top;
-  background-size: 100% 160px;
+  background-size: 100%;
 }
 
 .todo__article__heading {
@@ -49,7 +49,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  letter-spacing: calc(-0.2rem/16);
+  letter-spacing: -0.01em;
 }
 
 .todo__article__desk {
@@ -60,7 +60,7 @@
 .todo__article__link {
   display: inline-block;
   margin-right: 7px;
-  padding: 11px 44px 14px 44px;
+  padding: 11px 44px 14px;
   font-size: 12px;
   line-height: 15px;
 }
@@ -87,12 +87,12 @@
 
 @media (min-resolution: 2dppx) {
   .todo__article {
-    background-image: url('https://via.placeholder.com/580x320.jpg/FF0000/FFFFFF?text=Todo+580x320@2x+jpg+XS');
+    background-image: url('./../../img/img-xs-min/todo-xs@2x.jpg');
   }
 }
 
 @media (min-resolution: 3dppx) {
   .todo__article {
-    background-image: url('https://via.placeholder.com/870x480.jpg/FFFF00/000000?text=Todo+870x480@3x+jpg+XS');
+    background-image: url('./../../img/img-xs-min/todo-xs@3x.jpg');
   }
 }

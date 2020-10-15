@@ -3,16 +3,15 @@
   padding-right: 15px;
   padding-left: 15px;  
   padding-bottom: 39px;
-  max-width: 320px;
   background: #FFFFFF;
 }
 
 .intro {  
-  padding: 32px 14px 40px;
+  padding: 11% 5% 14%;
   text-align: center;
   color: #FFFFFF;
   background-color: #333333;
-  background-image: url('https://via.placeholder.com/290x262.jpg/0000FF/808080?text=Banner+290x262@1x+jpg+XS');
+  background-image: url('./../../img/img-xs-min/banner-xs@1x.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,22 +27,22 @@
 
 .intro__desk {
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 13.5%;
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
-  letter-spacing: calc(-0.1rem/16);
+  letter-spacing: -0.01em;
 }
 
 .btn-link {
-  padding: 11px 29px 14px 29px;
+  padding: 11px 29px 14px;
   border: none;
   text-align: center;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
   color: #FFFFFF;
-  letter-spacing: calc(-0.1rem/16);
+  letter-spacing: -0.005em;
   background-color: #FF9900;
   cursor: pointer;
 }
@@ -56,12 +55,12 @@
 
 @media (min-resolution: 2dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/580x524.jpg/FF0000/FFFFFF?text=Banner+580x614@2x+jpg+XS');
+    background-image: url('./../../img/img-xs-min/banner-xs@2x.jpg');
   }
 }
 
 @media (min-resolution: 3dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/870x786.jpg/FFFF00/000000?text=Banner+870x921@3x+jpg+XS');
+    background-image: url('./../../img/img-xs-min/banner-xs@3x.jpg');
   }
 }

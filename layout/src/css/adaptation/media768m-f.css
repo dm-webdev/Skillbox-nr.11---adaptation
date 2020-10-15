@@ -4,12 +4,11 @@
     line-height: 32px;
   }
 
-  header {
+  .header {
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
   }
 
   .container {
-    max-width: 768px;
     padding-right: 50px;
     padding-left: 50px;
   }
@@ -35,6 +34,7 @@
 
   .header-logo {
     order: 2;
+    margin-left: 5px;
   }
 
   .search-btn {
@@ -59,37 +59,36 @@
   }
 
   .intro_container {
-    max-width: 768px;
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 59px;
   }
 
   .intro {
-    padding: 191px 15px 114px 49px;
+    padding: 25% 15px 15% 49px;
     text-align: left;
-    background-image: url('https://via.placeholder.com/768x699.jpg/0000FF/808080?text=Banner+768x699@1x+jpg+Md');
+    background-image: url('./../../img/img-md-min/intro@1x-Md-min.jpg');
     background-position: center;
   }
 
   .intro__header {
     margin-bottom: 10px;
     font-size: 60px;
-    line-height: 73px;
+    line-height: 72px;
   }
 
   .intro__desk {
-    margin-bottom: 110px;
+    margin-bottom: 15.6%;
     padding-right: 20px;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: calc(0.23rem/16);
+    letter-spacing: 0.01em;
   }
 
   .btn-link {
     padding: 32px 38px 33px 39px;
     font-size: 24px;
-    letter-spacing: calc(-0.1rem/16);
+    letter-spacing: 0;
   }
 
   .section_heading {
@@ -112,9 +111,9 @@
 
   .preview {
     margin-bottom: 40px;
-    height: 650px;
-    background-image: url('https://via.placeholder.com/668x650.jpg/0000FF/808080?text=About+668x650@1x+jpg+Md');
-    background-size: 100% 100%;
+    padding-top: 71.2%;
+    background-image: url('./../../img/img-md-min/about@1x-Md-min.jpg');
+    background-color: #333333;
   }
 
   .preview__container {
@@ -142,7 +141,7 @@
 
   .preview__desk {
     margin-bottom: 0;
-    width: 400px;
+    margin-right: 30px;
     font-size: 16px;
     line-height: 31px;
     font-weight: 700;
@@ -151,7 +150,7 @@
   }
 
   .preview__btn {
-    padding: 19px 37px 19px 38px;
+    padding: 19px 38px;
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
@@ -162,50 +161,28 @@
     border: 1px solid #cacaca;
   }
 
-  .summary__item:nth-child(1) {
-    padding: 20px 20px 20px 177px;
+  .summary__item:not(:last-child) {
     margin-bottom: 40px;
   }
 
-  .summary__item:nth-child(2) {
+  .summary__img_consult {
     padding: 20px 20px 20px 177px;
+    background-position: 55px 63px, 30px 83px;
+    background-size: 105px 105px, 80px 80px;
   }
 
-  .summary__item__header {
+  .summary__img_quality {
+    padding: 20px 20px 20px 177px;
+    background-position: 65px 67px, 30px 88px;
+    background-size: 85px 85px, 78px 78px;
+  }
+
+  .summary__header {
     margin-bottom: 4px;
     font-size: 24px;
     line-height: 29px;
     font-weight: 700;
-  }
-
-  .summary__item::before {
-    top: 83px;
-    left: 30px;
-    width: 80px;
-    height: 80px;
-  }
-
-  .summary__item:nth-child(2)::before {
-    top: 87px;
-    left: 29px;
-  }
-
-  .summary__item:nth-child(1)::after {
-    top: 64px;
-    left: 56px;
-    width: 104px;
-    height: 104px;
-  }
-
-  .summary__item:nth-child(2)::after {
-    top: 66px;
-    left: 65px;
-    width: 87px;
-    height: 86px;
-  }
-
-  .summary__item__header {
-    letter-spacing: calc(0.05rem/16);
+    letter-spacing: 0;
   }
 
   .todo__heading {
@@ -227,32 +204,29 @@
   }
 
   .todo__article {
-    padding-top: 284px;
-    background-image: url('https://via.placeholder.com/668x284.jpg/0000FF/808080?text=Todo+290x160@1x+jpg+Md');
-    background-size: 100% 284px;
+    padding-top: 43%;
+    background-image: url('./../../img/img-md-min/todo@1x-Md-min.jpg');
   }
 
   .todo__article__heading {
     margin-top: 38px;
-    margin-bottom: 8px;
     font-size: 24px;
     line-height: 29px;
-    letter-spacing: calc(0.25rem/16);
+    letter-spacing: 0.011em;
   }
 
   .todo__article__link {
-    margin-right: 25px;
-    padding: 20px 37px 20px 38px;
+    margin-right: 26px;
+    margin-top: 1px;
+    padding: 20px 38px;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: calc(0.2rem/16);
   }
 
   .link-contract {
-    padding: 19px 35px 19px 39px;
+    padding: 19px 37px;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: calc(0.05rem/16);
   }
 
   .todo__article__desk {
@@ -262,7 +236,7 @@
   .question__heading {
     text-indent: -3px;
     margin-bottom: 37px;
-    letter-spacing: calc(-0.9rem/16);
+    letter-spacing: -0.02em;
   }
 
   .question {
@@ -270,43 +244,34 @@
   }
 
   .question__item {
-    padding-top: 23px;
+    padding-top: 25px;
     padding-bottom: 25px;
   }
 
   .question__item:nth-child(1) {
-    padding-top: 30px;
+    padding-top: 32px;
     padding-bottom: 25px;
   }
 
-  .question__item:nth-child(2) {
-    padding-top: 23px;
-    padding-bottom: 26px;
-  }
-
-  .question__item:nth-child(3) {
-    padding-top: 23px;
-    padding-bottom: 25px;
-  }
-
-  .question__item:nth-child(4) {
-    padding-top: 21px;
-    padding-bottom: 24px;
-  }
-
-  .question_desk {
-    padding-right: 150px;
+  .question__desk {
+    padding-right: 100px;
     font-size: 20px;
     font-weight: 600;
     line-height: 32px;
   }
 
-  .question-btn::after {
-    top: calc(50% - 24px);
-    right: 0px;
-    width: 50px;
-    height: 50px;
-    background-size: 30px 30px;
+  .question__btn {
+    padding: 25px;
+  }
+
+  .question__btn::before {
+    right: 9px;
+    width: 31px;
+  }
+  
+  .question__btn::after {
+    right: 9px;
+    width: 31px;
   }
 
   .footer-container {
@@ -353,7 +318,7 @@
   }
 
   .confirm {
-    margin-left: 18px;
+    margin-left: 15px;
   }
 
   .footer__logo {
@@ -377,28 +342,28 @@
 
 @media screen and (min-width: 754px) and (min-resolution: 2dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/1572x1398.jpg/FF0000/FFFFFF?text=Banner+1572x1398@2x+jpg+Md');
+    background-image: url('./../../img/img-md-min/intro@2x-Md-min.jpg');
   }
 
   .preview {
-    background-image: url('https://via.placeholder.com/1336x1300.png/FF0000/FFFFFF?text=About+1848x1280@2x+jpg+Md');
+    background-image: url('./../../img/img-md-min/about@2x-Md-min.jpg');
   }
 
   .todo__article {
-    background-image: url('https://via.placeholder.com/1336x568.jpg/FF0000/FFFFFF?text=Todo+874x1378@2x+jpg+Md');
+    background-image: url('./../../img/img-md-min/todo@2x-Md-min.jpg');
   }
 }
 
 @media screen and (min-width: 754px) and (min-resolution: 3dppx) {
   .intro {
-    background-image: url('https://via.placeholder.com/2304x2097.jpg/FFFF00/000000?text=Banner+2304x2097@3x+jpg+Md');
+    background-image: url('./../../img/img-md-min/intro@3x-Md-min.jpg');
   }
 
   .preview {
-    background-image: url('https://via.placeholder.com/2004x1950.png/FFFF00/000000?text=About+2772x1920@3x+jpg+Md');
+    background-image: url('./../../img/img-md-min/about@3x-Md-min.jpg');
   }
 
   .todo__article {
-    background-image: url('https://via.placeholder.com/2004x852.jpg/FFFF00/000000?text=Todo+1311x2067@3x+jpg+Md');
+    background-image: url('./../../img/img-md-min/todo@3x-Md-min.jpg');
   }
 }

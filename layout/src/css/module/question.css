@@ -13,8 +13,11 @@
 }
 
 .question__item {
-  padding-top: 18px;
-  padding-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 23px;
   border-top: 1px solid #CACACA;
 }
 
@@ -22,54 +25,63 @@
   border-bottom: 1px solid #CACACA;
 }
 
-.question-btn {
+.question__btn {
   position: relative;
-  padding-left: 0;
-  padding-right: 2px;
-  width: 100%;
+  margin-top: 2px;
+  padding: 15px;
   border: none;
-  outline: none;
-  background: inherit;
+  border-radius: 50%;
+  background-color: #ECECEC;
   cursor: pointer;
-  transition: color 0.2s;
+  transition: background-color 0.2s;
 }
 
-.question_desk {
-  padding-right: 60px;
-  font-weight: 700;
+.question__btn::before {
+  content: '';
+  position: absolute;
+  right: 6px;
+  width: 18px;
+  height: 1px;
+  background-color: #666666;
+  transition: background-color 0.2s;
+}
+
+.question__btn::after {
+  content: '';
+  position: absolute;
+  right: 6px;
+  width: 18px;
+  height: 1px;
+  background-color: #666666;
+  transform: rotate(90deg);
+  transition: background-color 0.2s;
+}
+
+.question__desk {
+  margin: 0;
+  padding-right: 30px;
   text-align: left;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: calc(0.15rem/16);
+  letter-spacing: 0.005em;
 }
 
-.question-btn::after {
-  content: '';
-  position: absolute;
-  right: 0px;
-  top: calc(50% - 14px);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #ECECEC;
-  background-image: url('../../img/cross-grey.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 18px 18px;
-  transition: background 0.2s,
-    background-image 0.2s;
+.question__btn:focus {
+  box-shadow: 0 0 10px #FF9900;
 }
 
-.question-btn:hover,
-.question-btn:active,
-.question-btn:focus {
-  color: #FF9900;
-}
-
-.question-btn:hover.question-btn::after,
-.question-btn:active.question-btn::after,
-.question-btn:focus.question-btn::after {
+.question__btn:hover,
+.question__btn:active,
+.question__btn:focus {
   background-color: #D2D2D2;
-  background-image: url('../../img/cross-dark.svg');
+}
+
+.question__btn:hover.question__btn::after,
+.question__btn:hover.question__btn::before,
+.question__btn:active.question__btn::after,
+.question__btn:active.question__btn::before,
+.question__btn:focus.question__btn::after,
+.question__btn:focus.question__btn::before {
+  background-color: #000000;
 }

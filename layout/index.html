@@ -2,51 +2,62 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Евклид - проектные системы</title> 
 
-  <link rel="preload" href="src/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="src/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="src/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="src/fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+  <link rel="preload" href="src/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="src/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="src/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="src/fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="src/css/normalize.css" />
-  <link rel="stylesheet" href="src/css/fonts.css" />
-  <link rel="stylesheet" href="src/css/style.css" />
-  <link rel="stylesheet" href="src/css/module/header.css" />
-  <link rel="stylesheet" href="src/css/module/intro.css" />
-  <link rel="stylesheet" href="src/css/module/about.css" />
-  <link rel="stylesheet" href="src/css/module/summary.css" />
-  <link rel="stylesheet" href="src/css/module/todo.css" />
-  <link rel="stylesheet" href="src/css/module/question.css" />
-  <link rel="stylesheet" href="src/css/module/footer.css" />
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/fonts.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/module/header.css">
+  <link rel="stylesheet" href="src/css/module/intro.css">
+  <link rel="stylesheet" href="src/css/module/about.css">
+  <link rel="stylesheet" href="src/css/module/summary.css">
+  <link rel="stylesheet" href="src/css/module/todo.css">
+  <link rel="stylesheet" href="src/css/module/question.css">
+  <link rel="stylesheet" href="src/css/module/footer.css">
 
-  <link rel="stylesheet" href="src/css/adaptation/media768m-f.css" />
-  <link rel="stylesheet" href="src/css/adaptation/media1024m-f.css" />
-  <link rel="stylesheet" href="src/css/adaptation/media1920m-f.css" />
+  <link rel="stylesheet" href="src/css/adaptation/media768m-f.css">
+  <link rel="stylesheet" href="src/css/adaptation/media1024m-f.css">
+  <link rel="stylesheet" href="src/css/adaptation/media1224m-f.css">
+  <link rel="stylesheet" href="src/css/adaptation/media1920m-f.css">
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container header-bar">
       <div class="header-logo">
         <picture>
-          <source media="(min-width: 1906px)" type="image/webp" srcset="https://via.placeholder.com/224x72.webp/8250C4/FFFFFF?text=Logo-white+224x72@1x+webp+XL 1x, https://via.placeholder.com/448x144.webp/8250C4/FFFF00?text=Logo-white+448x144@2x+webp+XL 2x, https://via.placeholder.com/672x216.webp/8250C4/FF0000?text=Logo-white+672x216@3x+webp+XL 3x">
+          <source media="(min-width: 1906px)" type="image/webp" srcset="src/img/img-xl-min/logo-white-xl@1x.webp 1x,
+            src/img/img-xl-min/logo-white-xl@2x.webp 2x,
+            src/img/img-xl-min/logo-white-xl@3x.webp 3x">
   
-          <source media="(min-width: 754px)" type="image/webp" srcset="https://via.placeholder.com/150x48.webp/000000/FFFFFF?text=Logo-white+150x48@1x+webp+Lg 1x, https://via.placeholder.com/300x96.webp/000000/FFFF00?text=Logo-white+300x96@2x+webp+Lg 2x, https://via.placeholder.com/450x144.webp/000000/FF0000?text=Logo-white+450x144@3x+webp+Lg 3x">
+          <source media="(min-width: 754px)" type="image/webp" srcset="src/img/img-lg-min/logo-white-lg@1x.webp 1x,
+            src/img/img-lg-min/logo-white-lg@2x.webp 2x,
+            src/img/img-lg-min/logo-white-lg@3x.webp 3x">
   
-          <source type="image/webp" srcset="https://via.placeholder.com/97x31.webp/FFAC00/FFFFFF?text=Logo-white+97x31@1x+webp+XS 1x, https://via.placeholder.com/194x62.webp/FFAC00/FFFF00?text=Logo-white+194x62@2x+webp+XS 2x, https://via.placeholder.com/291x93.webp/FFAC00/FF0000?text=Logo-white+291x93@3x+webp+XS 3x">
+          <source type="image/webp" srcset="src/img/img-xs-min/logo-white-xs@1x.webp 1x,
+            src/img/img-xs-min/logo-white-xs@2x.webp 2x,
+            src/img/img-xs-min/logo-white-xs@3x.webp 3x">
   
-          <source media="(min-width: 1906px)" srcset="https://via.placeholder.com/224x72.png/8250C4/808080?text=Logo-white+224x72@1x+png+XL 1x, https://via.placeholder.com/448x144.png/8250C4/FFFFFF?text=Logo-white+448x144@2x+png+XL 2x, https://via.placeholder.com/672x216.png/8250C4/000000?text=Logo-white+672x216@3x+png+XL 3x">
+          <source media="(min-width: 1906px)" srcset="src/img/img-xl-min/logo-white-xl@1x.png 1x,
+            src/img/img-xl-min/logo-white-xl@2x.png 2x,
+            src/img/img-xl-min/logo-white-xl@3x.png 3x">
   
-          <source media="(max-width: 754px)" srcset="https://via.placeholder.com/150x48.png/0000FF/808080?text=Logo-white+150x48@1x+png+LG 1x, https://via.placeholder.com/300x96.png/FF0000/FFFFFF?text=Logo-white+300x96@2x+png+LG 2x, https://via.placeholder.com/450x144.png/FFFF00/000000?text=Logo-white+450x144@3x+png+Lg 3x">
+          <source media="(max-width: 754px)" srcset="src/img/img-lg-min/logo-white-lg@1x.png 1x,
+            src/img/img-lg-min/logo-white-lg@2x.png 2x,
+            src/img/img-lg-min/logo-white-lg@3x.png 3x">
   
-          <img src="https://via.placeholder.com/97x31.png/FFAC00/808080?text=Logo-white+97x31@1x+png+XS" srcset="https://via.placeholder.com/194x62.png/FFAC00/FFFFFF?text=Logo-white+194x62@2x+png+XS 2x, https://via.placeholder.com/291x93.png/FFAC00/000000?text=Logo-white+291x93@3x+png+XS 3x" alt="Евклид - проектные системы" />
+          <img src="src/img/img-xs-min/logo-dark-xs@1x.png" srcset="src/img/img-xs-min/logo-dark-xs@2x.png 2x,
+            src/img/img-xs-min/logo-dark-xs@3x.png 3x" alt="Евклид - проектные системы" />
         </picture >
-      </div>
-      
+      </div>      
 
       <nav class="header-nav">
         <ul class="header-nav__list">
@@ -101,15 +112,15 @@
           </div>
 
           <ul id="summaryAnchor" class="summary__list">
-            <li class="summary__item">
+            <li class="summary__item summary__img_consult">
               <p>
-                <b class="summary__item__header">Консультация с широким активом</b>
+                <b class="summary__header">Консультация с широким активом</b>
                 А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.
               </p>
             </li>
-            <li class="summary__item">
+            <li class="summary__item summary__img_quality">
               <p>
-                <b class="summary__item__header">В своём стремлении повысить</b>
+                <b class="summary__header">В своём стремлении повысить</b>
                 Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.
               </p>
             </li>
@@ -146,37 +157,54 @@
 
         <ul class="question__list">
           <li class="question__item">
-            <button class="question-btn question_desk" type="button">Из чего формируется конечная&nbsp;стоимость проекта?</button>            
+            <h3 class="question__desk">Из чего формируется конечная&nbsp;стоимость проекта?</h3>
+
+            <button class="question__btn" type="button" aria-label="открыть ответ на вопрос "></button>            
           </li>
           <li class="question__item">
-            <button class="question-btn question_desk" type="button">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</button>
+            <h3 class="question__desk">У меня есть свой проект. Сможем ли мы его доработать&nbsp;/ реализовать?</h3>
+
+            <button class="question__btn" type="button" aria-label="открыть ответ на вопрос "></button>
           </li>
           <li class="question__item">
-            <button class="question-btn question_desk" type="button">Я выбираю между разными компаниями. В&nbsp;чём ваше отличие?</button>
+            <h3 class="question__desk">Я выбираю между разными компаниями. В&nbsp;чём ваше отличие?</h3>
+
+            <button class="question__btn" type="button" aria-label="открыть ответ на вопрос "></button>
           </li>
           <li class="question__item">
-            <button class="question-btn question_desk" type="button">Могу ли я делегировать вам работу / согласование с подрядчиком&nbsp;/ организацией?</button>
+            <h3 class="question__desk">Могу ли я делегировать вам работу / согласование с подрядчиком&nbsp;/ организацией?</h3>
+
+            <button class="question__btn" type="button" aria-label="открыть ответ на вопрос "></button>
           </li>
           <li class="question__item">
-            <button class="question-btn question_desk" type="button">Могу ли я вернуть деньги на каком-либо из этапов работ?</button>
+            <h3 class="question__desk">Могу ли я вернуть деньги на каком-либо из этапов работ?</h3>
+
+            <button class="question__btn" type="button" aria-label="открыть ответ на вопрос "></button> 
           </li>
         </ul>
       </section>
     </div>
   </main>
 
-  <footer>    
+  <footer class="footer">    
     <div class="container footer-container">
       <div class="footer_wrap">
         <div  class="footer__logo">
           <picture>
-            <source media="(min-width: 754px)" type="image/webp" srcset="https://via.placeholder.com/224x72.webp/EB5757/FFFFFF?text=Logo-dark+224x72@1x+webp+Md 1x, https://via.placeholder.com/448x144.webp/EB5757/FFFF00?text=Logo-dark+448x144@2x+webp+Md 2x, https://via.placeholder.com/672x216.webp/EB5757/FF0000?text=Logo-dark+672x216@3x+webp+Md 3x">
+            <source media="(min-width: 754px)" type="image/webp" srcset="src/img/img-xl-min/logo-dark-xl@1x.webp 1x, 
+              src/img/img-xl-min/logo-dark-xl@2x.webp 2x, 
+              src/img/img-xl-min/logo-dark-xl@3x.webp 3x">
   
-            <source type="image/webp" srcset="https://via.placeholder.com/131x42.webp/000000/FFFFFF?text=Logo-dark+131x42@1x+webp+XS 1x, https://via.placeholder.com/262x84.webp/000000/FFFF00?text=Logo-dark+262x84@2x+webp+XS 2x, https://via.placeholder.com/393x126.webp/000000/FF0000?text=Logo-dark+393x126@3x+webp+XS 3x">
+            <source type="image/webp" srcset="src/img/img-xs-min/logo-dark-xs@1x.webp 1x,
+              src/img/img-xs-min/logo-dark-xs@2x.webp 2x,
+              src/img/img-xs-min/logo-dark-xs@3x.webp 3x">
   
-            <source media="(min-width: 754px)" srcset="https://via.placeholder.com/224x72.png/EB5757/808080?text=Logo-dark+224x72@1x+png+Md 1x, https://via.placeholder.com/448x144.png/EB5757/FFFFFF?text=Logo-dark+448x144@2x+png+Md 2x, https://via.placeholder.com/672x216.png/EB5757/000000?text=Logo-dark+672x216@3x+png+Md 3x">
+            <source media="(min-width: 754px)" srcset="src/img/img-xl-min/logo-dark-xl@1x.png 1x,
+              src/img/img-xl-min/logo-dark-xl@2x.png 2x,
+              src/img/img-xl-min/logo-dark-xl@3x.png 3x">
   
-            <img src="https://via.placeholder.com/131x42.png/0000FF/808080?text=Logo-dark+131x42@1x+png+XS" srcset="https://via.placeholder.com/262x84.png/FF0000/FFFFFF?text=Logo-dark+262x84@2x+png+XS 2x, https://via.placeholder.com/393x126.png/FFFF00/000000?text=Logo-dark+393x126@3x+png+XS 3x" alt="Евклид - проектные системы" />
+            <img src="src/img/img-xs-min/logo-dark-xs@1x.png" srcset="src/img/img-xs-min/logo-dark-xs@2x.png 2x,
+              src/img/img-xs-min/logo-dark-xs@3x.png 3x" alt="Евклид - проектные системы" />
           </picture>      
         </div>
   
@@ -221,16 +249,16 @@
         <form class="request-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
           <h2 class="section_heading request-form__heading">Оставить заявку</h2>
   
-          <input class="form_input" type="text" name="fullName" required placeholder="Фамилия, имя и отчество*"/>
+          <input class="form_input" type="text" name="fullName" placeholder="Фамилия, имя и отчество*" required>
   
-          <input class="form_input" type="email" name="email" required placeholder="E-mail*"/>
+          <input class="form_input" type="email" name="email" placeholder="E-mail*" required>
   
           <textarea class="request-form__message form_input" name="message" rows="4" placeholder="Сообщение"></textarea>
   
           <button class="request-form__button btn-link" type="submit">Отправить данные</button>
   
           <label class="confirm">
-            <input class="confirm__check" type="checkbox" name="confirm" required/>
+            <input class="confirm__check" type="checkbox" name="confirm" required>
             
             <span class="confirm__desk">Согласен на обработу данных</span>
           </label>
