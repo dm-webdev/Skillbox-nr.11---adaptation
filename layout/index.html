@@ -249,16 +249,16 @@
         <form class="request-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
           <h2 class="section_heading request-form__heading">Оставить заявку</h2>
   
-          <input class="form_input" type="text" name="fullName" placeholder="Фамилия, имя и отчество*" required>
+          <input class="form_input" type="text" name="fullName" placeholder="Фамилия, имя и отчество*" aria-label="ваше фамилия, имя и отчество" required>
   
-          <input class="form_input" type="email" name="email" placeholder="E-mail*" required>
+          <input class="form_input" type="email" name="email" placeholder="E-mail*" aria-label="ваш E-mail" required>
   
-          <textarea class="request-form__message form_input" name="message" rows="4" placeholder="Сообщение"></textarea>
+          <textarea class="request-form__message form_input" name="message" rows="4" placeholder="Сообщение" aria-label="оставьте сообщение"></textarea>
   
           <button class="request-form__button btn-link" type="submit">Отправить данные</button>
   
           <label class="confirm">
-            <input class="confirm__check" type="checkbox" name="confirm" required>
+            <input class="confirm__check" type="checkbox" name="confirm" aria-label="дать согласие на обработку персональных данных" required>
             
             <span class="confirm__desk">Согласен на обработу данных</span>
           </label>
